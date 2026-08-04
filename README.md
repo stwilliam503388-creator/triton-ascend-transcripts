@@ -15,9 +15,9 @@
 | 07 | Triton昇腾亲和扩展编程实践 | [🔗](https://www.hiascend.com/developer/courses/detail/2061700710588108802) | ✅ |
 | 08 | Triton-TLE面向昇腾的扩展与优化 | [🔗](https://www.hiascend.com/developer/courses/detail/2065276409307607041) | ✅ |
 | 09 | 《昇态鉴行录》Triton算子开发基础 | [🔗](https://www.hiascend.com/developer/courses/detail/2009545800908128258) | — |
-| 10 | Triton-Ascend代码架构及功能扩展全解析 | [🔗](https://www.hiascend.com/developer/courses/detail/1993247708929794049) | — |
-| 11 | 详解面向昇腾的Triton算子调试和性能优化 | [🔗](https://www.hiascend.com/developer/courses/detail/2009525333350514689) | — |
-| 12 | 基于AscendNPU IR构建DLCompiler | [🔗](https://www.hiascend.com/developer/courses/detail/1998662211601461249) | — |
+| 10 | Triton-Ascend代码架构及功能扩展全解析 | ✅ | [🔗](https://www.hiascend.com/developer/courses/detail/1993247708929794049) | — |
+| 11 | 详解面向昇腾的Triton算子调试和性能优化 | ✅ | [🔗](https://www.hiascend.com/developer/courses/detail/2009525333350514689) | — |
+| 12 | 基于AscendNPU IR构建DLCompiler | ✅ | [🔗](https://www.hiascend.com/developer/courses/detail/1998662211601461249) | — |
 
 ## 文件结构
 
