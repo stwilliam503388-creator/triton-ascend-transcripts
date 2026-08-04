@@ -1,0 +1,76 @@
+[
+  {
+    "id": "1998217338603737090",
+    "name": "01_Triton初级",
+    "m3u8_count": 0,
+    "has_subtitle": false,
+    "m3u8_urls": [],
+    "error": null
+  },
+  {
+    "id": "2071845112954408961",
+    "name": "02_Triton先锋计划",
+    "m3u8_count": 0,
+    "has_subtitle": false,
+    "m3u8_urls": [],
+    "error": null
+  },
+  {
+    "id": "2044691037452255234",
+    "name": "03_Triton进阶",
+    "m3u8_count": 0,
+    "has_subtitle": false,
+    "m3u8_urls": [],
+    "error": null
+  },
+  {
+    "id": "2056932020583751682",
+    "name": "04_Triton码力全开_基础",
+    "m3u8_count": 1,
+    "has_subtitle": false,
+    "m3u8_urls": [
+      "https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/62f7ef02711144a36dc103d7d3e77243/play_video/4bb5dcabb4056353ff1396009745ef9c_0.m3u8?token=v6rt69pOCrEqSuZb3dZoR8bjsVhfpHyRz3cTOlfrFs"
+    ],
+    "error": null
+  },
+  {
+    "id": "2059206542540251137",
+    "name": "05_Triton码力全开_代码架构",
+    "m3u8_count": 1,
+    "has_subtitle": false,
+    "m3u8_urls": [
+      "https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/1a61e7107d9d358c1a25736b8927d2dc/play_video/8045ebd6995a6328620b05f61f491a65_0.m3u8?token=28d6JapKeV7LndmDh2DXc5VCYNKGraj2K8QquME"
+    ],
+    "error": null
+  },
+  {
+    "id": "2057646310697541634",
+    "name": "06_Triton码力全开_调试",
+    "m3u8_count": 1,
+    "has_subtitle": false,
+    "m3u8_urls": [
+      "https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/770cce64bd141b1fc425ea993f79e22b/play_video/b35e7780dde0995dc253d9ad0a39685a_0.m3u8?token=eRRccKDqorcm8INg1EFDvis13aWgKendqSoh0cJwJGk"
+    ],
+    "error": null
+  },
+  {
+    "id": "2061700710588108802",
+    "name": "07_Triton亲和扩展",
+    "m3u8_count": 1,
+    "has_subtitle": false,
+    "m3u8_urls": [
+      "https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/1473f25bb796f4e0dc0ce72995c5509d/play_video/2fb246bf86c9188060e33347afbd70a9_0.m3u8?token=Co3iPqS7Rb3Jre5wZEjLLfwpwHmWKVap8dP2lH7qXM"
+    ],
+    "error": null
+  },
+  {
+    "id": "2065276409307607041",
+    "name": "08_Triton_TLE",
+    "m3u8_count": 1,
+    "has_subtitle": false,
+    "m3u8_urls": [
+      "https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/9d6e87b4506583bfbfdbb1ebadb20b0f/play_video/6c7dc4d445015acf0004da10f451e2d1_0.m3u8?token=WRCOKIVB5FdjdPmnPp6VmiSnojIfpFbyocpsdJkM"
+    ],
+    "error": null
+  }
+]

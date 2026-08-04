@@ -1,0 +1,9 @@
+# Triton Course Videos - All m3u8 URLs
+# Format: COURSE_NAME|M3U8_URL
+
+01_Triton初级|https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/707e2c53c7ab2a8d2dac0bf4915f70dc/play_video/67d5e1915d8ee32a55bc523e1f675a21_0.m3u8?token=7qoJqIfhBwVcTzxtQvpUilFjgyavbz1ezsmQvZKr0
+04_Triton码力全开_基础|https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/62f7ef02711144a36dc103d7d3e77243/play_video/4bb5dcabb4056353ff1396009745ef9c_0.m3u8?token=PoMbGHVDfkniRVC74rmTnnIMHGQP4IeMKVcpqqTgolM
+05_Triton码力全开_代码架构|https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/1a61e7107d9d358c1a25736b8927d2dc/play_video/8045ebd6995a6328620b05ab5e44e7c0_0.m3u8?token=bOqk4QStbt7wIbkq1MgkY2rjld3QJc1zhNMosPwB9UE
+06_Triton码力全开_调试|https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/770cce64bd141b1fc425ea993f79e22b/play_video/b35e7780dde0995dc253d9ad0a39685a_0.m3u8?token=NrBjANZTjlWuCeyxVumcbcgCfKrsSAyCxx67KmoOo6E
+07_Triton亲和扩展|https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/1473f25bb796f4e0dc0ce72995c5509d/play_video/2fb246bf86c9188060e333fa1ab335ac_0.m3u8?token=Qv7jshhBRKSU47zPkEHBzRDx4yElDc3YOxUBgMPxx0g
+08_Triton_TLE|https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/9d6e87b4506583bfbfdbb1ebadb20b0f/play_video/6c7dc4d445015acf0004da4f6359f8c3_0.m3u8?token=ok6kye81hXBC8j26OagQ3Mv2IHIBJ8Jtrqu9SkVUm0s
