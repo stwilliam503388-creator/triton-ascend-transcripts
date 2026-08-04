@@ -1,6 +1,7 @@
-# 码力全开 — 基础篇
+# 【码力全开】全流程掌握Triton算子开发
 
 > 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/2056932020583751682)
+> 课程 ID：2056932020583751682
 > 转录工具：whisper-cpp (large-v3)
 
 ## 文件

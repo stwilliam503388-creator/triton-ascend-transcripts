@@ -1,6 +1,7 @@
-# Triton 初级课程
+# 面向昇腾Triton算子开发（初级）
 
 > 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/1998217338603737090)
+> 课程 ID：1998217338603737090
 > 转录工具：whisper-cpp (large-v3)
 
 ## 文件

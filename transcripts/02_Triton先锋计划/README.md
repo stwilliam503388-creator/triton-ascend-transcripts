@@ -1,6 +1,7 @@
-# Triton 先锋计划
+# 【先锋计划】Triton-Ascend算子开发介绍
 
 > 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/2071845112954408961)
+> 课程 ID：2071845112954408961
 > 转录工具：whisper-cpp (large-v3)
 
 ## 文件

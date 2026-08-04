@@ -1,6 +1,7 @@
-# Triton 进阶课程
+# 面向昇腾Triton算子开发（进阶）
 
 > 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/2044691037452255234)
+> 课程 ID：2044691037452255234
 > 转录工具：whisper-cpp (large-v3)
 
 ## 文件

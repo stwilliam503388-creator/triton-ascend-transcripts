@@ -2,176 +2,61 @@
   {
     "id": "1998217338603737090",
     "name": "面向昇腾Triton算子开发（初级）",
-    "level": "初级",
-    "url_info": {
-      "category": null,
-      "courseFlag": true,
-      "description": "本课程是面向昇腾Triton算子开发的初级课程，通过课程讲解和典型样例，帮助开发者学习如何使用Triton开发算子。",
-      "domain": "算子开发",
-      "link": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/course/1493401497873534978/application-view?courseId=1998217338603737090&appId=1998221702676381698&appType=1",
-      "mbLink": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/h5/weportal/#/resource/1998221702676381698?tenantId=1493401497873534978&courseResourceId=1998217338603737090&applicationType=1&courseStatus=published&sessionsId=null&associationId=null",
-      "title": "面向昇腾Triton算子开发（初级）"
-    },
-    "video_data": {
-      "videos": [],
-      "m3u8Urls": [
-        "https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/707e2c53c7ab2a8d2dac0bf4915f70dc/play_video/67d5e1915d8ee32a55bc523e1f675a21_0.m3u8?token=7qoJqIfhBwVcTzxtQvpUilFjgyavbz1ezsmQvZKr0"
-      ],
-      "apis": [
-        "https://www.hiascend.com/api/resource/center/material/courseware/videoSubtitles/querySubtitleContent?videoId=1998219818047004674&langList="
-      ],
-      "body": "2025-12-09 10:42场次\n目录\n已完成100%\n\n第1章 面向昇腾Triton算子开发（初级）视频\n\n第一节：Triton整体介绍与昇腾使能\n\n第二节：Triton-Ascend环境装配\n\n第三节：Triton算子开发基础\n\n第2章 面向昇腾Triton算子开发（初级）课件\n\nPlay Video\n本章已学时间： 101分钟\n上一讲\n下一讲\n精\n核\n精\n已订购\n达标\nQualified\n3\n1\n2\n正\n反",
-      "videoSrc": "blob:https://www.hiascend.com/b57186a0-f90f-4966-b384-4e67af8c177a"
-    }
+    "folder": "01_Triton初级"
   },
   {
     "id": "2071845112954408961",
     "name": "【先锋计划】Triton-Ascend算子开发介绍",
-    "level": "高级",
-    "url_info": {
-      "category": null,
-      "courseFlag": true,
-      "description": "本课程主要介绍面向昇腾的Triton算子开发技术，涵盖Triton整体介绍、昇腾使能方法以及从安装部署到调试性能分析的全流程开发指南。",
-      "domain": "算子开发",
-      "link": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/course/1493401497873534978/application-view?courseId=2071845112954408961&appId=2072510474238738433&appType=1",
-      "mbLink": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/h5/weportal/#/resource/2072510474238738433?tenantId=1493401497873534978&courseResourceId=2071845112954408961&applicationType=1&courseStatus=published&sessionsId=null&associationId=null",
-      "title": "【先锋计划】Triton-Ascend算子开发介绍"
-    },
-    "video_data": {
-      "videos": [],
-      "m3u8Urls": [],
-      "apis": [],
-      "body": "【先锋计划】Triton-Ascend算子开发介绍\n4.5分\n29人在学\n30 分钟\n学习时长\n中文\n语言\n2026-06-30 14:35\n开课时间\n2037-12-31 23:59\n结课时间\n全天可学\n每日可学时间\n我要报名\n课程介绍\n课程目录\n课程评价\n简介\n\n本课程主要介绍面向昇腾的Triton算子开发技术，涵盖Triton整体介绍、昇腾使能方法以及从安装部署到调试性能分析的全流程开发指南。\n\n责任部门\n昇腾AI学堂\n精\n核\n精\n已订购\n达标\nQualified\n3\n1\n2\n正\n反"
-    }
+    "folder": "02_Triton先锋计划"
   },
   {
     "id": "2044691037452255234",
     "name": "面向昇腾Triton算子开发（进阶）",
-    "level": "中级",
-    "url_info": {
-      "category": null,
-      "courseFlag": true,
-      "description": "本课程是Triton算子开发的进阶课程，聚焦面向昇腾高效实现算子开发与迁移。课程以Gather算子为典型案例，深度融合Triton算子开发范式与昇腾硬件架构，系统分析代码实现中的关键差异点。内容涵盖算子开发全流程、迁移实践、调试方法、用例解析及自动调优（autotune）特性，助力开发者掌握昇腾平台下Triton算子的开发、精度调试与性能优化能力。 为了更高效、准确地传递课程内容，我们采用了语音合成技术，降低人工录制环节的不确定性。目前AI语音可能还不够完美，我们将努力优化播讲效果，力求给您更好的学习体验，同时也欢迎大家推荐更好用的语音合成引擎——您的声音对我们非常重要！",
-      "domain": "算子开发",
-      "link": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/course/1493401497873534978/application-view?courseId=2044691037452255234&appId=2044954507670179841&appType=1",
-      "mbLink": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/h5/weportal/#/resource/2044954507670179841?tenantId=1493401497873534978&courseResourceId=2044691037452255234&applicationType=1&courseStatus=published&sessionsId=null&associationId=null",
-      "title": "面向昇腾Triton算子开发（进阶）"
-    },
-    "video_data": {
-      "videos": [],
-      "m3u8Urls": [],
-      "apis": [],
-      "body": "2026-04-17 09:41场次\n目录\n已完成61%\n\n第1章：面向昇腾开发与迁移\n\n第2章：Triton算子调试方法\n\n第3章：昇腾Triton算子用例解读：Gather\n\n第4章：Triton算子自动调优\n\n课件：面向昇腾Triton算子开发（进阶）\n\n上一讲\n下一讲\n精\n核\n精\n已订购\n达标\nQualified\n3\n1\n2\n正\n反"
-    }
+    "folder": "03_Triton进阶"
   },
   {
     "id": "2056932020583751682",
-    "name": "【码力全开特辑】从基础理论到实践-全流程掌握Triton算子开发",
-    "level": "初级",
-    "url_info": {
-      "category": null,
-      "courseFlag": true,
-      "description": "介绍Triton整体架构与编程基础知识，学习Triton算子开发基本模式和常用接口，以及面向昇腾架构开发与迁移的关键点。",
-      "domain": "训练营",
-      "link": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/course/1493401497873534978/application-view?courseId=2056932020583751682&appId=2056945362119499777&appType=1",
-      "mbLink": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/h5/weportal/#/resource/2056945362119499777?tenantId=1493401497873534978&courseResourceId=2056932020583751682&applicationType=1&courseStatus=published&sessionsId=null&associationId=null",
-      "title": "【码力全开特辑】从基础理论到实践，全流程掌握面向昇腾的Triton算子开发"
-    },
-    "video_data": {
-      "videos": [],
-      "m3u8Urls": [
-        "https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/62f7ef02711144a36dc103d7d3e77243/play_video/4bb5dcabb4056353ff1396009745ef9c_0.m3u8?token=PoMbGHVDfkniRVC74rmTnnIMHGQP4IeMKVcpqqTgolM"
-      ],
-      "apis": [
-        "https://www.hiascend.com/api/resource/center/material/courseware/videoSubtitles/querySubtitleContent?videoId=2056935280438468609&langList="
-      ],
-      "body": "2026-05-20 11:49场次\n目录\n已完成2%\n\n从基础理论到实践，全流程掌握面向昇腾的Triton算子开发\n\n选修\n\n从基础理论到实践，全流程掌握面向昇腾的Triton算子开发-课件\n\n【码力全开特辑】从基础理论到实践，全流程掌握面向昇腾的Triton算子开发\nPlay Video\n从基础理论到实践，全流程掌握面向昇腾的Triton算子开发\n从基础理论到实践，全流程掌握面向昇腾的Triton算子开发\n上一讲\n下一讲\n精\n核\n精\n已订购\n达标\nQualified\n3\n1\n2\n正\n反",
-      "videoSrc": "blob:https://www.hiascend.com/64fea206-7a60-4739-bf10-176a0a5d8eb1"
-    }
+    "name": "【码力全开】全流程掌握Triton算子开发",
+    "folder": "04_Triton码力全开_基础"
   },
   {
     "id": "2059206542540251137",
-    "name": "【码力全开特辑】Triton Ascend代码架构及功能扩展全解析",
-    "level": "中级",
-    "url_info": {
-      "category": null,
-      "courseFlag": true,
-      "description": "本课程基于样例详解Triton算子的编译流程，以及Triton Ascend如何通过编译优化在昇腾硬件上高效运行。",
-      "domain": "训练营",
-      "link": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/course/1493401497873534978/application-view?courseId=2059206542540251137&appId=2059214516826513409&appType=1",
-      "mbLink": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/h5/weportal/#/resource/2059214516826513409?tenantId=1493401497873534978&courseResourceId=2059206542540251137&applicationType=1&courseStatus=published&sessionsId=null&associationId=null",
-      "title": "【码力全开特辑】Triton Ascend代码架构及功能扩展全解析"
-    },
-    "video_data": {
-      "videos": [],
-      "m3u8Urls": [],
-      "apis": [],
-      "body": "【码力全开特辑】Triton Ascend代码架构及功能扩展全解析\n0分\n3人在学\n1 小时\n学习时长\n中文\n语言\n2026-05-26 17:34\n开课时间\n2037-12-31 23:59\n结课时间\n全天可学\n每日可学时间\n我要报名\n课程介绍\n课程目录\n课程评价\n简介\n\n本课程基于样例详解Triton算子的编译流程，以及Triton Ascend如何通过编译优化在昇腾硬件上高效运行。\n\n责任部门\nCANN课程\n精\n核\n精\n已订购\n达标\nQualified\n3\n1\n2\n正\n反"
-    }
+    "name": "【码力全开】Triton Ascend代码架构全解析",
+    "folder": "05_Triton码力全开_代码架构"
   },
   {
     "id": "2057646310697541634",
-    "name": "【码力全开特辑】详解面向昇腾的Triton算子调试和性能优化",
-    "level": "初级",
-    "url_info": {
-      "category": null,
-      "courseFlag": true,
-      "description": "介绍Triton算子调试方法与性能检测工具，讲解高性能算子设计逻辑与具体实现流程。",
-      "domain": "训练营",
-      "link": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/course/1493401497873534978/application-view?courseId=2057646310697541634&appId=2057653446781534209&appType=1",
-      "mbLink": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/h5/weportal/#/resource/2057653446781534209?tenantId=1493401497873534978&courseResourceId=2057646310697541634&applicationType=1&courseStatus=published&sessionsId=null&associationId=null",
-      "title": "【码力全开特辑】详解面向昇腾的Triton算子调试和性能优化"
-    },
-    "video_data": {
-      "videos": [],
-      "m3u8Urls": [
-        "https://2893-cn-north-4.cdn-vod.huaweicloud.com/asset/770cce64bd141b1fc425ea993f79e22b/play_video/b35e7780dde0995dc253d9ad0a39685a_0.m3u8?token=NrBjANZTjlWuCeyxVumcbcgCfKrsSAyCxx67KmoOo6E"
-      ],
-      "apis": [
-        "https://www.hiascend.com/api/resource/center/material/courseware/videoSubtitles/querySubtitleContent?videoId=2057646946465701890&langList="
-      ],
-      "body": "2026-05-22 10:43场次\n目录\n已完成1%\n\n详解面向昇腾的Triton算子调试和性能优化\n\n选修\n\n详解面向昇腾的Triton算子调试和性能优化-课件\n\n【码力全开特辑】详解面向昇腾的Triton算子调试和性能优化\nPlay Video\n详解面向昇腾的Triton算子调试和性能优化\n上一讲\n下一讲\n精\n核\n精\n已订购\n达标\nQualified\n3\n1\n2\n正\n反",
-      "videoSrc": "blob:https://www.hiascend.com/338f7677-bdc4-488f-a92c-7b3e25bbc031"
-    }
+    "name": "【码力全开】Triton算子调试和性能优化",
+    "folder": "06_Triton码力全开_调试"
   },
   {
     "id": "2061700710588108802",
     "name": "Triton昇腾亲和扩展编程实践",
-    "level": "中级",
-    "url_info": {
-      "category": null,
-      "courseFlag": true,
-      "description": "介绍TritonAscend昇腾亲和扩展接口设计原理，了解如何使用这些接口开发高性能算子",
-      "domain": "训练营",
-      "link": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/course/1493401497873534978/application-view?courseId=2061700710588108802&appId=2062093531769872385&appType=1",
-      "mbLink": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/h5/weportal/#/resource/2062093531769872385?tenantId=1493401497873534978&courseResourceId=2061700710588108802&applicationType=1&courseStatus=published&sessionsId=null&associationId=null",
-      "title": "Triton昇腾亲和扩展编程实践"
-    },
-    "video_data": {
-      "videos": [],
-      "m3u8Urls": [],
-      "apis": [],
-      "body": "Triton昇腾亲和扩展编程实践\n0分\n9人在学\n70 分钟\n学习时长\n中文\n语言\n2026-06-02 14:45\n开课时间\n2037-12-31 23:59\n结课时间\n全天可学\n每日可学时间\n我要报名\n课程介绍\n课程目录\n课程评价\n简介\n\n介绍TritonAscend昇腾亲和扩展接口设计原理，了解如何使用这些接口开发高性能算子\n\n责任部门\nCANN课程\n精\n核\n精\n已订购\n达标\nQualified\n3\n1\n2\n正\n反"
-    }
+    "folder": "07_Triton亲和扩展"
   },
   {
     "id": "2065276409307607041",
     "name": "Triton-TLE面向昇腾的扩展与优化",
-    "level": "中级",
-    "url_info": {
-      "category": null,
-      "courseFlag": true,
-      "description": "面向昇腾AI处理器，聚焦高性能算子开发:基于AscendNPUIR进行编译接入与联创，融合编译器优化手段，并依托FlagOS社区拓展FlagTree TLE原语，最大化挖掘昇腾硬件潜力与编译能力，编写高性能算子",
-      "domain": "训练营",
-      "link": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/course/1493401497873534978/application-view?courseId=2065276409307607041&appId=2065322013266161665&appType=1",
-      "mbLink": "2b87aad812c94b3392d218f35fa6ca3f.shixizhi.huawei.com/h5/weportal/#/resource/2065322013266161665?tenantId=1493401497873534978&courseResourceId=2065276409307607041&applicationType=1&courseStatus=published&sessionsId=null&associationId=null",
-      "title": "Triton-TLE面向昇腾的扩展与优化"
-    },
-    "video_data": {
-      "videos": [],
-      "m3u8Urls": [],
-      "apis": [],
-      "body": "Triton-TLE面向昇腾的扩展与优化\n0分\n1人在学\n60 分钟\n学习时长\n中文\n语言\n2026-06-12 11:34\n开课时间\n2037-12-31 23:59\n结课时间\n全天可学\n每日可学时间\n我要报名\n课程介绍\n课程目录\n课程评价\n简介\n\n面向昇腾AI处理器，聚焦高性能算子开发:基于AscendNPUIR进行编译接入与联创，融合编译器优化手段，并依托FlagOS社区拓展FlagTree TLE原语，最大化挖掘昇腾硬件潜力与编译能力，编写高性能算子\n\n责任部门\nCANN课程\n精\n核\n精\n已订购\n达标\nQualified\n3\n1\n2\n正\n反"
-    }
+    "folder": "08_Triton_TLE"
+  },
+  {
+    "id": "2009545800908128258",
+    "name": "《昇态鉴行录》Triton算子开发基础",
+    "folder": "09_Triton昇态鉴行录"
+  },
+  {
+    "id": "1993247708929794049",
+    "name": "Triton-Ascend代码架构及功能扩展全解析",
+    "folder": "10_Triton代码架构"
+  },
+  {
+    "id": "2009525333350514689",
+    "name": "详解面向昇腾的Triton算子调试和性能优化",
+    "folder": "11_Triton调试优化"
+  },
+  {
+    "id": "1998662211601461249",
+    "name": "基于AscendNPU IR构建DLCompiler",
+    "folder": "12_Triton_DLCompiler"
   }
 ]

@@ -1,6 +1,7 @@
-# Triton TLE
+# Triton-TLE面向昇腾的扩展与优化
 
 > 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/2065276409307607041)
+> 课程 ID：2065276409307607041
 > 转录工具：whisper-cpp (large-v3)
 
 ## 文件

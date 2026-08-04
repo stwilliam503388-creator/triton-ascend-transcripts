@@ -1,6 +1,7 @@
-# 码力全开 — 代码架构
+# 【码力全开】Triton Ascend代码架构全解析
 
 > 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/2059206542540251137)
+> 课程 ID：2059206542540251137
 > 转录工具：whisper-cpp (large-v3)
 
 ## 文件
