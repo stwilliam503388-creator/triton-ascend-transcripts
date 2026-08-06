@@ -1,0 +1,417 @@
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  1623.92 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+whisper_backend_init: using BLAS backend
+system_info: n_threads = 4 / 10 | WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+main: processing '/tmp/chunk_0.wav' (9600000 samples, 600.0 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = zh, task = transcribe, timestamps = 1 ...
+output_txt: saving output to '/tmp/chunk_0.wav.txt'
+whisper_print_timings:     load time =   949.95 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   181.98 ms
+whisper_print_timings:   sample time =  2693.32 ms / 14607 runs (     0.18 ms per run)
+whisper_print_timings:   encode time = 12396.85 ms /    26 runs (   476.80 ms per run)
+whisper_print_timings:   decode time =   333.37 ms /    83 runs (     4.02 ms per run)
+whisper_print_timings:   batchd time = 13650.25 ms / 14400 runs (     0.95 ms per run)
+whisper_print_timings:   prompt time =   355.94 ms /  5357 runs (     0.07 ms per run)
+whisper_print_timings:    total time = 30792.18 ms
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  1623.92 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+whisper_backend_init: using BLAS backend
+system_info: n_threads = 4 / 10 | WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+main: processing '/tmp/chunk_1.wav' (9600000 samples, 600.0 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = zh, task = transcribe, timestamps = 1 ...
+output_txt: saving output to '/tmp/chunk_1.wav.txt'
+whisper_print_timings:     load time =   423.61 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   208.91 ms
+whisper_print_timings:   sample time =  3086.33 ms / 15484 runs (     0.20 ms per run)
+whisper_print_timings:   encode time = 14884.71 ms /    27 runs (   551.29 ms per run)
+whisper_print_timings:   decode time =  1259.24 ms /   299 runs (     4.21 ms per run)
+whisper_print_timings:   batchd time = 15136.56 ms / 15053 runs (     1.01 ms per run)
+whisper_print_timings:   prompt time =   438.11 ms /  5851 runs (     0.07 ms per run)
+whisper_print_timings:    total time = 35684.53 ms
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  1623.92 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+whisper_backend_init: using BLAS backend
+system_info: n_threads = 4 / 10 | WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+main: processing '/tmp/chunk_2.wav' (9600000 samples, 600.0 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = zh, task = transcribe, timestamps = 1 ...
+output_txt: saving output to '/tmp/chunk_2.wav.txt'
+whisper_print_timings:     load time =   677.79 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   236.84 ms
+whisper_print_timings:   sample time =  2968.13 ms / 15855 runs (     0.19 ms per run)
+whisper_print_timings:   encode time = 14787.41 ms /    27 runs (   547.68 ms per run)
+whisper_print_timings:   decode time =   473.95 ms /   118 runs (     4.02 ms per run)
+whisper_print_timings:   batchd time = 15013.68 ms / 15605 runs (     0.96 ms per run)
+whisper_print_timings:   prompt time =   445.16 ms /  5848 runs (     0.08 ms per run)
+whisper_print_timings:    total time = 34840.44 ms
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  1623.92 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+whisper_backend_init: using BLAS backend
+system_info: n_threads = 4 / 10 | WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+main: processing '/tmp/chunk_3.wav' (9600000 samples, 600.0 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = zh, task = transcribe, timestamps = 1 ...
+output_txt: saving output to '/tmp/chunk_3.wav.txt'
+whisper_print_timings:     load time =   457.38 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   219.97 ms
+whisper_print_timings:   sample time =  2981.25 ms / 13948 runs (     0.21 ms per run)
+whisper_print_timings:   encode time = 16961.16 ms /    26 runs (   652.35 ms per run)
+whisper_print_timings:   decode time =   510.90 ms /   122 runs (     4.19 ms per run)
+whisper_print_timings:   batchd time = 15326.07 ms / 13699 runs (     1.12 ms per run)
+whisper_print_timings:   prompt time =   548.04 ms /  5613 runs (     0.10 ms per run)
+whisper_print_timings:    total time = 37260.21 ms
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  1623.92 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+whisper_backend_init: using BLAS backend
+system_info: n_threads = 4 / 10 | WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+main: processing '/tmp/chunk_4.wav' (9600000 samples, 600.0 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = zh, task = transcribe, timestamps = 1 ...
+output_txt: saving output to '/tmp/chunk_4.wav.txt'
+whisper_print_timings:     load time =   501.62 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   217.90 ms
+whisper_print_timings:   sample time =  4539.65 ms / 15564 runs (     0.29 ms per run)
+whisper_print_timings:   encode time = 19452.79 ms /    26 runs (   748.18 ms per run)
+whisper_print_timings:   decode time =   802.28 ms /   169 runs (     4.75 ms per run)
+whisper_print_timings:   batchd time = 19777.63 ms / 15268 runs (     1.30 ms per run)
+whisper_print_timings:   prompt time =   675.63 ms /  5616 runs (     0.12 ms per run)
+whisper_print_timings:    total time = 46369.66 ms
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  1623.92 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+whisper_backend_init: using BLAS backend
+system_info: n_threads = 4 / 10 | WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+main: processing '/tmp/chunk_5.wav' (9600000 samples, 600.0 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = zh, task = transcribe, timestamps = 1 ...
+output_txt: saving output to '/tmp/chunk_5.wav.txt'
+whisper_print_timings:     load time =   934.46 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   302.36 ms
+whisper_print_timings:   sample time =  7122.15 ms / 16005 runs (     0.44 ms per run)
+whisper_print_timings:   encode time = 18019.68 ms /    25 runs (   720.79 ms per run)
+whisper_print_timings:   decode time =   296.34 ms /    52 runs (     5.70 ms per run)
+whisper_print_timings:   batchd time = 20673.14 ms / 15831 runs (     1.31 ms per run)
+whisper_print_timings:   prompt time =   723.55 ms /  5374 runs (     0.13 ms per run)
+whisper_print_timings:    total time = 48526.20 ms
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  1623.92 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+whisper_backend_init: using BLAS backend
+system_info: n_threads = 4 / 10 | WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+main: processing '/tmp/chunk_6.wav' (9600000 samples, 600.0 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = zh, task = transcribe, timestamps = 1 ...
+output_txt: saving output to '/tmp/chunk_6.wav.txt'
+whisper_print_timings:     load time =   575.91 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   222.78 ms
+whisper_print_timings:   sample time =  8155.73 ms / 15508 runs (     0.53 ms per run)
+whisper_print_timings:   encode time = 22951.40 ms /    28 runs (   819.69 ms per run)
+whisper_print_timings:   decode time =  1828.61 ms /   313 runs (     5.84 ms per run)
+whisper_print_timings:   batchd time = 22325.39 ms / 15058 runs (     1.48 ms per run)
+whisper_print_timings:   prompt time =   875.05 ms /  6038 runs (     0.14 ms per run)
+whisper_print_timings:    total time = 57581.62 ms
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  1623.92 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+whisper_backend_init: using BLAS backend
+system_info: n_threads = 4 / 10 | WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+main: processing '/tmp/chunk_7.wav' (9600000 samples, 600.0 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = zh, task = transcribe, timestamps = 1 ...
+output_txt: saving output to '/tmp/chunk_7.wav.txt'
+whisper_print_timings:     load time =   958.54 ms
+whisper_print_timings:     fallbacks =   0 p /   1 h
+whisper_print_timings:      mel time =   254.02 ms
+whisper_print_timings:   sample time =  6709.51 ms / 14811 runs (     0.45 ms per run)
+whisper_print_timings:   encode time = 22589.27 ms /    28 runs (   806.76 ms per run)
+whisper_print_timings:   decode time =   326.07 ms /    64 runs (     5.09 ms per run)
+whisper_print_timings:   batchd time = 21111.43 ms / 14610 runs (     1.44 ms per run)
+whisper_print_timings:   prompt time =   878.63 ms /  6056 runs (     0.15 ms per run)
+whisper_print_timings:    total time = 53446.41 ms
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  1623.92 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+whisper_backend_init: using BLAS backend
+system_info: n_threads = 4 / 10 | WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+main: processing '/tmp/chunk_8.wav' (9600000 samples, 600.0 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = zh, task = transcribe, timestamps = 1 ...
+output_txt: saving output to '/tmp/chunk_8.wav.txt'
+whisper_print_timings:     load time =   786.87 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   235.45 ms
+whisper_print_timings:   sample time =  5625.23 ms / 14514 runs (     0.39 ms per run)
+whisper_print_timings:   encode time = 19420.36 ms /    24 runs (   809.18 ms per run)
+whisper_print_timings:   decode time =   145.23 ms /    31 runs (     4.68 ms per run)
+whisper_print_timings:   batchd time = 20527.05 ms / 14366 runs (     1.43 ms per run)
+whisper_print_timings:   prompt time =   707.66 ms /  5125 runs (     0.14 ms per run)
+whisper_print_timings:    total time = 47893.35 ms
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  1623.92 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+whisper_backend_init: using BLAS backend
+system_info: n_threads = 4 / 10 | WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+main: processing '/tmp/chunk_9.wav' (9600000 samples, 600.0 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = zh, task = transcribe, timestamps = 1 ...
+output_txt: saving output to '/tmp/chunk_9.wav.txt'
+whisper_print_timings:     load time =   827.48 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =   310.77 ms
+whisper_print_timings:   sample time =  4199.51 ms / 12680 runs (     0.33 ms per run)
+whisper_print_timings:   encode time = 22773.70 ms /    29 runs (   785.30 ms per run)
+whisper_print_timings:   decode time =   990.24 ms /   210 runs (     4.72 ms per run)
+whisper_print_timings:   batchd time = 16520.48 ms / 12328 runs (     1.34 ms per run)
+whisper_print_timings:   prompt time =   811.87 ms /  6265 runs (     0.13 ms per run)
+whisper_print_timings:    total time = 46832.02 ms
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  1623.92 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+whisper_backend_init: using BLAS backend
+system_info: n_threads = 4 / 10 | WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+main: processing '/tmp/chunk_10.wav' (9474322 samples, 592.1 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = zh, task = transcribe, timestamps = 1 ...
+output_txt: saving output to '/tmp/chunk_10.wav.txt'
+whisper_print_timings:     load time =   599.30 ms
+whisper_print_timings:     fallbacks =   0 p /   1 h
+whisper_print_timings:      mel time =   217.70 ms
+whisper_print_timings:   sample time =  3089.01 ms / 13476 runs (     0.23 ms per run)
+whisper_print_timings:   encode time = 24138.85 ms /    29 runs (   832.37 ms per run)
+whisper_print_timings:   decode time =   560.96 ms /   120 runs (     4.67 ms per run)
+whisper_print_timings:   batchd time = 17404.26 ms / 13214 runs (     1.32 ms per run)
+whisper_print_timings:   prompt time =   878.80 ms /  6271 runs (     0.14 ms per run)
+whisper_print_timings:    total time = 47204.04 ms
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  1623.92 MB
+whisper_model_load: model size    = 1623.92 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+whisper_backend_init: using BLAS backend
+whisper_print_timings:     load time =   626.27 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =     0.00 ms
+whisper_print_timings:   sample time =     0.00 ms /     1 runs (     0.00 ms per run)
+whisper_print_timings:   encode time =     0.00 ms /     1 runs (     0.00 ms per run)
+whisper_print_timings:   decode time =     0.00 ms /     1 runs (     0.00 ms per run)
+whisper_print_timings:   batchd time =     0.00 ms /     1 runs (     0.00 ms per run)
+whisper_print_timings:   prompt time =     0.00 ms /     1 runs (     0.00 ms per run)
+whisper_print_timings:    total time =   680.52 ms
