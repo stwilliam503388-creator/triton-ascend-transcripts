@@ -222,7 +222,7 @@ OP这个原硕士的K是一个具体的shape，它主要是K在gm上的一个地
 
 我们在tile size扩大了几倍，并且我们是得到了一个1.85x的一个性能提升，然后这就是customerop的一个介绍，然后customerop它还有它一个比较大的限制，customerop是一个比较比较一个比较有效的一个hack的竞争。
 
-大家如果想利用深腾一些底层的intristic进行一些高性能算子的hack，都可以考虑用customerop的这一套接口来进行一些高高度定制的油画，或者说一些比较极端比较hack的一些油画，然后我们继。
+大家如果想利用昇腾一些底层的intristic进行一些高性能算子的hack，都可以考虑用customerop的这一套接口来进行一些高高度定制的油画，或者说一些比较极端比较hack的一些油画，然后我们继。
 
 续介绍一个稍微简单一点的一个ub insert slice的一个toe的insert slice的一个操作，它的主要是减少在ub上的一个内存的up上减少一个gem的load，它可以在ub上进行一些slice和拼接的操作。
 
