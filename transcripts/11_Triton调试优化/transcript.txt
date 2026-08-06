@@ -92,7 +92,7 @@ tore其实就是一个从我们搬入到fact计算单元进行一些计算，然
 
 别内存同步，各种优化，然后最后它会传到llbm，然后再经过我们的医生编译器，然后生成一个二进制，然后这就是一个完整的编译流程，然后编译完成之后，我们最后的目的肯定是想要去将，我们对应的binary的kernel。
 
-去放到device上真正的去执行，这个阶段就是kernel launch阶段，然后我们可以CANN一下，kernel launch技术定义，是指在traten send中，用cpu发出指定，让npon开始并行执行一个特定的kernel的过程。
+去放到device上真正的去执行，这个阶段就是kernel launch阶段，然后我们可以CANN一下，kernel launch技术定义，是指在Triton send中，用cpu发出指定，让npon开始并行执行一个特定的kernel的过程。
 
 然后我们过一下我们第一次kernel launch，为什么要说第一次呢因为像前面的编译阶段，就是一个相同的kernel，你其实只需要编译一次，然后后面当你所有的参数和kernel都是不变的情况下，你编译完一次之后。
 
@@ -128,25 +128,25 @@ tristan to heavym，其实就直接转到了我们的smpli，中的网页，ok�
 
 然后用线性化的表达式去表达出来，这个目的呢其实是因为像gpu，它是可以逐个严肃进行的进行它的road store，我们像我们深层的话，因为cmd架构的话，我们使用的dm指定，我们需要有一个更规律的防存。
 
-然后因为我们需要一块一块的去办，就比如我们一个block就是一个32字节，我们想要我们想要达到的效果就是一次可以办32字节，甚至或者它的倍数，这样的话才是我们生存更亲和的办员，所以说这个tratenlyanalyze的话。
+然后因为我们需要一块一块的去办，就比如我们一个block就是一个32字节，我们想要我们想要达到的效果就是一次可以办32字节，甚至或者它的倍数，这样的话才是我们生存更亲和的办员，所以说这个Tritonlyanalyze的话。
 
 其实就是去将一些主元素的非线性表达式，翻译成线性表达，然后提升性能，然后这个pass的话，它的目的是想分析road store中的mask，如果当前的mask是一个离散，我们会进行一个对应的处理，然后后面会具体介绍。
 
-像traten2onstretch的话，就是预算仿存的分析并处理，它跟tratenlyanalyze是一个互补的关系，在tratenlyanalyze中，如果分析出它是一个可以将非线性化转成线性化的仿存之后。
+像Triton2onstretch的话，就是预算仿存的分析并处理，它跟Tritonlyanalyze是一个互补的关系，在Tritonlyanalyze中，如果分析出它是一个可以将非线性化转成线性化的仿存之后。
 
-它会就转成了一个有规律的DMA指令，当linearis无法分析出来的时候，我们就需要走到我们的traten2onstretch，DMA指令是不支持主义元素的搬运，我们需要它也是一个三双四节对齐，所以说在这个pass中。
+它会就转成了一个有规律的DMA指令，当linearis无法分析出来的时候，我们就需要走到我们的Triton2onstretch，DMA指令是不支持主义元素的搬运，我们需要它也是一个三双四节对齐，所以说在这个pass中。
 
-我们需要去识别这种离散的主义元素的搬运，将它退化成我们的标量搬运，当然这个性能肯定也是有，肯定会需要牺牲性能，但是我们必须保证功能的前期下才会再优化性能，然后这个pass是traten2hevm，hevm我刚刚也有介绍。
+我们需要去识别这种离散的主义元素的搬运，将它退化成我们的标量搬运，当然这个性能肯定也是有，肯定会需要牺牲性能，但是我们必须保证功能的前期下才会再优化性能，然后这个pass是Triton2hevm，hevm我刚刚也有介绍。
 
 其实就是我们smnpr中的其中一个模块，这个模块的话是一个跟硬件相关的一个模块，它会有一个系列应件相关的边用化，然后可以CANN到我们的hevm方言，它的完整的描述是hybrid intelligence virtual machine。
 
-是smpi中的一种，然后这个pass的话就是traten直接toLVM，顾名思义就是我们直接把traten方言转成了LVM方言，然后这个pass的话是一个traten2hevm，它的名字虽然叫traten2hevm。
+是smpi中的一种，然后这个pass的话就是Triton直接toLVM，顾名思义就是我们直接把Triton方言转成了LVM方言，然后这个pass的话是一个Triton2hevm，它的名字虽然叫Triton2hevm。
 
-但它其实不只转成LVM方言，它会转成像memoref tensor等一系列方言，然后最终就生成了ttadapter，然后这个方言的话就是traten2hevm方言，traten2hevm方言，hevm方言其实也是smpi中的一种。
+但它其实不只转成LVM方言，它会转成像memoref tensor等一系列方言，然后最终就生成了ttadapter，然后这个方言的话就是Triton2hevm方言，Triton2hevm方言，hevm方言其实也是smpi中的一种。
 
-它是一个硬件无关的一些边用化，是大概attuation就在做的然后traten2hevm方言，像annotation就是类似一个就是一个hint，叫像一个compile hint，然后我们会达到就是像一些像一些那个ir的分析。
+它是一个硬件无关的一些边用化，是大概attuation就在做的然后Triton2hevm方言，像annotation就是类似一个就是一个hint，叫像一个compile hint，然后我们会达到就是像一些像一些那个ir的分析。
 
-我们可能只能在TTIR做，或者有些hint我们可以直接开放给开发者，他们可以在traten kernel里面打上对应的hint，将它想要的语义传给我们的编译器，传给traten2hevm方言，或者大部分的优化肯定就直接传到了我们smpi。
+我们可能只能在TTIR做，或者有些hint我们可以直接开放给开发者，他们可以在Triton kernel里面打上对应的hint，将它想要的语义传给我们的编译器，传给Triton2hevm方言，或者大部分的优化肯定就直接传到了我们smpi。
 
 然后smpi根据分析当前你传来的annotation，然后你的语义让我们去进行对应的优化，举个例子就比如我们的cast，当我们的比如我们这样一个大微宽，软小微宽的情况我们肯定会出现一个offroad场景。
 
@@ -174,7 +174,7 @@ tristan to heavym，其实就直接转到了我们的smpli，中的网页，ok�
 
 并且load的话它会有一个other的参数，other参数代表Mask为1的情况下，我们需要搬Mask为0的情况下，我们需要补other，就是padding，我们需要补padding，比如这个padding是0。
 
-那我们就先搬八个数，我们先用八个数进来，然后但八个数里面其实只有这四个数是有效数据，那另外四个数我们就会补零，这个就是我们在这个pass中做的处理，然后介绍一下这个traten to australia。
+那我们就先搬八个数，我们先用八个数进来，然后但八个数里面其实只有这四个数是有效数据，那另外四个数我们就会补零，这个就是我们在这个pass中做的处理，然后介绍一下这个Triton to australia。
 
 这个pass，australia pass其实就是刚刚我说的是离散Mask，这里的话就是离散的offset，离散的offset呢其实它不一定是离散，它还有一种间接仿存，间接仿存是怎么说什么叫间接仿存呢其实就是我们我们的offset地址。
 
@@ -286,7 +286,7 @@ treton op都会转成Linux，它不仅是Linux，它包含了像memory tensor各
 
 对应该是在这里面的主要功能，对应该是在这里面的主要功能，对应该是在这里面的主要功能，好 我来CANN一下，好 这边获奖的ID是如故，然后可以扫描屏幕上二维码，添加生存小助手 领取奖品，应该是如故 对，好 我先介绍一下。
 
-我讲一下为什么是会传到CMPI，我可以回到刚刚的展示的这个图里面，或者最上面吧可以开始的架构图，你可以CANN到，我们的扇子写完之后，会生成TTR，TTR转成TT-Adapt-IR，然后是通过我们的Traten-Adapt。
+我讲一下为什么是会传到CMPI，我可以回到刚刚的展示的这个图里面，或者最上面吧可以开始的架构图，你可以CANN到，我们的算子写完之后，会生成TTR，TTR转成TT-Adapt-IR，然后是通过我们的Traten-Adapt。
 
 然后转成TT-Adapt-IR之后，这个入口就是我们的Traten，我们的CMPI-R，然后我们将Traten-TT-Adapt-IR，就会作为CMPI-R的注入，然后接下来所有优化都会放在我们的CMPI-R中。
 

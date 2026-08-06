@@ -298,9 +298,9 @@ splat成一个128长度的E111，这个就是我们的splat操作，所以这边
 
 叫做custom off，背景是因为，现有的算子组合，可能并不满足我们使用者，需要的计算需求，或者开发者，他们希望自己定义的算子，定义的操作，可以保持私有，或者多个算子的组合，并没办法达到我们最优的性能。
 
-而我们的custom off，就是允许，用户在，Ascend MPIR的模板库，的template里面，去写自己的c代码，之后变译成我们的.bc，变译成我们的bytecode，之后呢就能提供到，与其他扇子。
+而我们的custom off，就是允许，用户在，Ascend MPIR的模板库，的template里面，去写自己的c代码，之后变译成我们的.bc，变译成我们的bytecode，之后呢就能提供到，与其他算子。
 
-一起变译的一个自由扇子，目前custom off，还在work in progress，还在这个开发中，但是部分能力已经提供了例如我们的core type，我们能选择要执行，cqp还是vector，有我们的pipe type。
+一起变译的一个自由算子，目前custom off，还在work in progress，还在这个开发中，但是部分能力已经提供了例如我们的core type，我们能选择要执行，cqp还是vector，有我们的pipe type。
 
 能选择要用哪一种pipe，有我们的vf mode，我们可以选择这个是要simd的还是simt的我们也有这个symbol，来让用户来决定，这个函数的名称，但是目前很多功能，还在实现当中，目前我们自定义算子的lowering。
 
@@ -310,9 +310,9 @@ splat成一个128长度的E111，这个就是我们的splat操作，所以这边
 
 或者我们的layout transform，例如我们的end to end，这些布局变化，这些呢目前还在支撑当中，这个就是我们customer，我们可以一起看一下相关的例子，可以看到我们这边有两个mlir的用力。
 
-第一个就是building，第二个就是customer，在我们的mplir模板库里面，我们这边会定义了一些模板库，在调用的过程里面呢我们就会透过这个hfm hir，然后customer，来去调用相关的扇子。
+第一个就是building，第二个就是customer，在我们的mplir模板库里面，我们这边会定义了一些模板库，在调用的过程里面呢我们就会透过这个hfm hir，然后customer，来去调用相关的算子。
 
-留这里的building，get a load，这个是我们这边提供的一个building扇子，这边的int跟out，就是根据我们的需求来提供的而我们的customer呢这边是用户可以自己保持为prefix的用户可以在这里输入相关的一些属性。
+留这里的building，get a load，这个是我们这边提供的一个building算子，这边的int跟out，就是根据我们的需求来提供的而我们的customer呢这边是用户可以自己保持为prefix的用户可以在这里输入相关的一些属性。
 
 这边是个mlir，我们会提供一个python友善的一个界面给用户使用的这里有我们的coretype可以选择是factor，也能选择我们的pipetype，这个是factor的pipe，也能选择我们的vfmode。
 
@@ -350,9 +350,9 @@ ton Ascend仓里面的Triton Adapter完成的这里就是我们Triton Ascend最�
 
 把它来去做加上一个Slide，又我们Triton to Unstructure，来把一些离散的仿尘，离散的仿尘指的就是Stripe不固定的一些仿尘，来去把它支撑起来，这个就是我们主要的Path，此外呢。
 
-Triton Ascend也为我们生存亲和提供了我们的Custom Ops接口，这个既满足了我们用户对于我们极致性能的追求，也能保持到我们自定义扇子的私有性，这个也增加了我们Triton编程里面的我们极致性能的这个追求。
+Triton Ascend也为我们生存亲和提供了我们的Custom Ops接口，这个既满足了我们用户对于我们极致性能的追求，也能保持到我们自定义算子的私有性，这个也增加了我们Triton编程里面的我们极致性能的这个追求。
 
-也能保持到我们自定义扇子的私有性，这个也增加了我们Triton编程里面的生存亲和，确保我们写出的算子是在生存上有一个很好的性能的，所以这边就是我们Triton Ascend的一个总结，我们目前Trit。
+也能保持到我们自定义算子的私有性，这个也增加了我们Triton编程里面的生存亲和，确保我们写出的算子是在生存上有一个很好的性能的，所以这边就是我们Triton Ascend的一个总结，我们目前Trit。
 
 on Ascend已经开源了很多的代码了大家可以扫一下左边跟右边，左边就是我们的Triton Language，这是我们的Triton Language，GipHub里面的Triton Language。
 
