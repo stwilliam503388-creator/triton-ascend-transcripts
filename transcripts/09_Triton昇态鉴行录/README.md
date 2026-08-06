@@ -3,7 +3,7 @@
 > 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/2009545800908128258)
 > 课程 ID：2009545800908128258
 
-> ⚠️ 本课程尚未转录。只有课程链接。
+> 转录工具：whisper-cpp (large-v3-turbo, 分块)
 
 ## 获取课程
 
