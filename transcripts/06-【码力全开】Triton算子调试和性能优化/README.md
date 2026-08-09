@@ -1,0 +1,10 @@
+# 06-【码力全开】Triton算子调试和性能优化
+
+> 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/2057646310697541634)
+
+## 文件
+
+| 文件 | 说明 |
+|------|------|
+| `06-【码力全开】Triton算子调试和性能优化.md` | Markdown 格式转录文本 |
+| `subtitle.srt` | SRT 字幕文件 |
