@@ -1,0 +1,8 @@
+> 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/2056932020583751682)
+
+## 文件
+
+| 文件 | 说明 |
+|------|------|
+| `04-【码力全开】全流程掌握Triton算子开发.md` | Markdown 格式转录文本 |
+| `subtitle.srt` | SRT 字幕文件 |
