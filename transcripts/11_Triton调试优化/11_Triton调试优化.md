@@ -1,13 +1,14 @@
 ---
 title: "详解面向昇腾的Triton算子调试和性能优化"
-source: "https://www.hiascend.com/developer/courses/detail/2009525333350514689"
+source: "详解面向昇腾的Triton算子调试和性能优化"
+source_url: "https://www.hiascend.com/developer/courses/detail/2009525333350514689"
 tags: [triton, ascend, 昇腾, 视频转录, 课程]
 transcribed_by: "whisper-cpp (large-v3-turbo)"
 ---
 
 # 详解面向昇腾的Triton算子调试和性能优化
 
-> **来源：** [昇腾社区](https://www.hiascend.com/developer/courses/detail/2009525333350514689)
+> **来源：** [详解面向昇腾的Triton算子调试和性能优化](https://www.hiascend.com/developer/courses/detail/2009525333350514689)
 > **转录工具：** whisper-cpp (large-v3-turbo) · 本地转录
 > **处理：** 术语修正 · 段落合并 · 标点补充
 

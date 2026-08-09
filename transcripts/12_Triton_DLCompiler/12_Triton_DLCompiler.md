@@ -1,13 +1,14 @@
 ---
 title: "基于AscendNPU IR构建DLCompiler"
-source: "https://www.hiascend.com/developer/courses/detail/1998662211601461249"
+source: "基于AscendNPU IR构建DLCompiler"
+source_url: "https://www.hiascend.com/developer/courses/detail/1998662211601461249"
 tags: [triton, ascend, 昇腾, 视频转录, 课程]
 transcribed_by: "whisper-cpp (large-v3-turbo)"
 ---
 
 # 基于AscendNPU IR构建DLCompiler
 
-> **来源：** [昇腾社区](https://www.hiascend.com/developer/courses/detail/1998662211601461249)
+> **来源：** [基于AscendNPU IR构建DLCompiler](https://www.hiascend.com/developer/courses/detail/1998662211601461249)
 > **转录工具：** whisper-cpp (large-v3-turbo) · 本地转录
 > **处理：** 术语修正 · 段落合并 · 标点补充
 

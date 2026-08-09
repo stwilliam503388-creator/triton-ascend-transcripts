@@ -1,13 +1,14 @@
 ---
 title: "Triton-Ascend代码架构及功能扩展全解析"
-source: "https://www.hiascend.com/developer/courses/detail/1993247708929794049"
+source: "Triton-Ascend代码架构及功能扩展全解析"
+source_url: "https://www.hiascend.com/developer/courses/detail/1993247708929794049"
 tags: [triton, ascend, 昇腾, 视频转录, 课程]
 transcribed_by: "whisper-cpp (large-v3-turbo)"
 ---
 
 # Triton-Ascend代码架构及功能扩展全解析
 
-> **来源：** [昇腾社区](https://www.hiascend.com/developer/courses/detail/1993247708929794049)
+> **来源：** [Triton-Ascend代码架构及功能扩展全解析](https://www.hiascend.com/developer/courses/detail/1993247708929794049)
 > **转录工具：** whisper-cpp (large-v3-turbo) · 本地转录
 > **处理：** 术语修正 · 段落合并 · 标点补充
 

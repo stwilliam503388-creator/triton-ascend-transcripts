@@ -1,13 +1,14 @@
 ---
 title: "Triton-TLE面向昇腾的扩展与优化"
-source: "https://www.hiascend.com/developer/courses/detail/2065276409307607041"
+source: "Triton-TLE面向昇腾的扩展与优化"
+source_url: "https://www.hiascend.com/developer/courses/detail/2065276409307607041"
 tags: [triton, ascend, 昇腾, 视频转录, 课程]
 transcribed_by: "whisper-cpp (large-v3-turbo)"
 ---
 
 # Triton-TLE面向昇腾的扩展与优化
 
-> **来源：** [昇腾社区](https://www.hiascend.com/developer/courses/detail/2065276409307607041)
+> **来源：** [Triton-TLE面向昇腾的扩展与优化](https://www.hiascend.com/developer/courses/detail/2065276409307607041)
 > **转录工具：** whisper-cpp (large-v3-turbo) · 本地转录
 > **处理：** 术语修正 · 段落合并 · 标点补充
 

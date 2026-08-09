@@ -1,13 +1,14 @@
 ---
 title: "《昇态鉴行录》Triton算子开发基础"
-source: "https://www.hiascend.com/developer/courses/detail/2009545800908128258"
+source: "《昇态鉴行录》Triton算子开发基础"
+source_url: "https://www.hiascend.com/developer/courses/detail/2009545800908128258"
 tags: [triton, ascend, 昇腾, 视频转录, 课程]
 transcribed_by: "whisper-cpp (large-v3-turbo)"
 ---
 
 # 《昇态鉴行录》Triton算子开发基础
 
-> **来源：** [昇腾社区](https://www.hiascend.com/developer/courses/detail/2009545800908128258)
+> **来源：** [《昇态鉴行录》Triton算子开发基础](https://www.hiascend.com/developer/courses/detail/2009545800908128258)
 > **转录工具：** whisper-cpp (large-v3-turbo) · 本地转录
 > **处理：** 术语修正 · 段落合并 · 标点补充
 

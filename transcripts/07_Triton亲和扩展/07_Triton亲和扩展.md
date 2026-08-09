@@ -1,13 +1,14 @@
 ---
 title: "Triton昇腾亲和扩展编程实践"
-source: "https://www.hiascend.com/developer/courses/detail/2061700710588108802"
+source: "Triton昇腾亲和扩展编程实践"
+source_url: "https://www.hiascend.com/developer/courses/detail/2061700710588108802"
 tags: [triton, ascend, 昇腾, 视频转录, 课程]
 transcribed_by: "whisper-cpp (large-v3-turbo)"
 ---
 
 # Triton昇腾亲和扩展编程实践
 
-> **来源：** [昇腾社区](https://www.hiascend.com/developer/courses/detail/2061700710588108802)
+> **来源：** [Triton昇腾亲和扩展编程实践](https://www.hiascend.com/developer/courses/detail/2061700710588108802)
 > **转录工具：** whisper-cpp (large-v3-turbo) · 本地转录
 > **处理：** 术语修正 · 段落合并 · 标点补充
 

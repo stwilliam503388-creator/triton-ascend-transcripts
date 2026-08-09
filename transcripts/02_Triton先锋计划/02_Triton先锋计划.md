@@ -1,13 +1,14 @@
 ---
 title: "【先锋计划】Triton-Ascend算子开发介绍"
-source: "https://www.hiascend.com/developer/courses/detail/2071845112954408961"
+source: "【先锋计划】Triton-Ascend算子开发介绍"
+source_url: "https://www.hiascend.com/developer/courses/detail/2071845112954408961"
 tags: [triton, ascend, 昇腾, 视频转录, 课程]
 transcribed_by: "whisper-cpp (large-v3-turbo)"
 ---
 
 # 【先锋计划】Triton-Ascend算子开发介绍
 
-> **来源：** [昇腾社区](https://www.hiascend.com/developer/courses/detail/2071845112954408961)
+> **来源：** [【先锋计划】Triton-Ascend算子开发介绍](https://www.hiascend.com/developer/courses/detail/2071845112954408961)
 > **转录工具：** whisper-cpp (large-v3-turbo) · 本地转录
 > **处理：** 术语修正 · 段落合并 · 标点补充
 
