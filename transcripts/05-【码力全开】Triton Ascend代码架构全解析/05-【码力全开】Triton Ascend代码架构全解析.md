@@ -12,7 +12,7 @@ transcribed_by: "whisper-cpp (large-v3-turbo)"
 > **转录工具：** whisper-cpp (large-v3-turbo) · 本地转录
 > **处理：** 术语修正 · 段落合并 · 标点补充
 
-小伙伴们,大家好，我是本次直播的讲师，Traddle Ascent Town的Committer,梁颖冲，你们也可以叫我Ricky，很高兴和大家在Cent训练营，码力全开特辑的直播间中和大家见面，2026Cent训练营。
+小伙伴们,大家好，我是本次直播的讲师，Traddle Ascend Town的Committer,梁颖冲，你们也可以叫我Ricky，很高兴和大家在Cent训练营，码力全开特辑的直播间中和大家见面，2026Cent训练营。
 
 我们设置了全新的四大主题课程，分别是我们的开源基础系列，码力全开特辑，开发者说，以及我们的企业对话专场，同时我们也设置了更多好玩的互动，让各位小伙伴们参与，给大家介绍一下本季全新的训练营玩法，大家可以先截图保存。
 
@@ -20,39 +20,39 @@ transcribed_by: "whisper-cpp (large-v3-turbo)"
 
 也可以领取到我们的定制茅台一份，玩法三，就是我们的学习笔记，以及我们的直播打卡，我们可以按要求，在我们的昇腾论坛上发布我们的学习心得，并提交我们的一属，我们就有机会获得那个社区定制的一份礼物，那么我们就回答正题。
 
-本次课程的主题就是我们的Trydown Ascent代码架构，以及功能扩展全解析，目前Trydown Ascent仓就是我们的Trydown Ascent代码架构，以及功能扩展全解析，目前Trydow。
+本次课程的主题就是我们的Triton Ascend代码架构，以及功能扩展全解析，目前Triton Ascend仓就是我们的Triton Ascend代码架构，以及功能扩展全解析，目前Triton。
 
-n Ascent仓已经签仓了以前我们Trydown Ascent是在Gipcode上开发的为了更加融入我们的Trydown生态，我们把Trydown Ascent仓签到我们的Gipcode上，Trydown是近几年来受到开发者青睐的一个。
+n Ascend仓已经签仓了以前我们Triton Ascend是在Gipcode上开发的为了更加融入我们的Triton生态，我们把Triton Ascend仓签到我们的Gipcode上，Triton是近几年来受到开发者青睐的一个。
 
-Python语法的一个编程语言，开发者仅需要关注我们的Tal、Block，他们的切分方法，以及基于我们的Tal、Block，他们来进行我们的逻辑运算，编译器会自动将我们的Trydown代码，在编译的过程里面。
+Python语法的一个编程语言，开发者仅需要关注我们的Tal、Block，他们的切分方法，以及基于我们的Tal、Block，他们来进行我们的逻辑运算，编译器会自动将我们的Triton代码，在编译的过程里面。
 
-结合我们底层硬件的特点，自动完成各类的优化，而在整个编译过程里面，Trydown Ascent就是我们面对生态平台构建的一个Trydown编译框架，旨在让我们的Trydown代码能够在生态硬件上高效运行。
+结合我们底层硬件的特点，自动完成各类的优化，而在整个编译过程里面，Triton Ascend就是我们面对生态平台构建的一个Triton编译框架，旨在让我们的Triton代码能够在生态硬件上高效运行。
 
-那么今天我会分三个部分来跟大家讲解，第一个部分就是我们Trydown Ascent的一个功能概述，第二部分就是Trydown Ascent的一个重点Path介绍，第三部分就是我们的功能拓展，大家可以看到。
+那么今天我会分三个部分来跟大家讲解，第一个部分就是我们Triton Ascend的一个功能概述，第二部分就是Triton Ascend的一个重点Path介绍，第三部分就是我们的功能拓展，大家可以看到。
 
-在实际层上我们有Kernel以及Wrapper，用户在透过Trydown进行开发的过程里面，可以写自己的Kernel以及Wrapper，其后在编译的流程里面，用户可以透过调用我们的Trydown Ascent。
+在实际层上我们有Kernel以及Wrapper，用户在透过Triton进行开发的过程里面，可以写自己的Kernel以及Wrapper，其后在编译的流程里面，用户可以透过调用我们的Triton Ascend。
 
-Trydown Ascent主要设置于两个组件，第一个部分都是我们的Trydown Ascent Backhead，第二个部分就是我们的Trydown Adapter，在Trydown Ascent Backhead里面。
+Triton Ascend主要设置于两个组件，第一个部分都是我们的Triton Ascend Backhead，第二个部分就是我们的Triton Adapter，在Triton Ascend Backhead里面。
 
-我们有我们的自动寻忧，透过Auto Tuning，Trydown Ascent可以找到一个更好的配置，确保我们的算子能够高效地运作，第二点就是它有个JITS编译，JITS的全身就是Just-in-Time。
+我们有我们的自动寻忧，透过Auto Tuning，Triton Ascend可以找到一个更好的配置，确保我们的算子能够高效地运作，第二点就是它有个JITS编译，JITS的全身就是Just-in-Time。
 
 透过Just-in-Time Compilation，我们可以把算子编译成.o，那么后续，当我们想要跑这算子的时候，我们如果它们的配置是一样的而算子的原码是一样的话，我们可以把缓存里面，已经编译好的Kernel.o。
 
-重新把它调用起来，透过JITS的编译，我们这边也可以减少我们后续，算子编译的时间，第三点就是我们的均匀时调用，Trydown Ascent它可以调用到，根据用户算子所生成出来的Kernel.o，以及一些Runtime的ShareObject。
+重新把它调用起来，透过JITS的编译，我们这边也可以减少我们后续，算子编译的时间，第三点就是我们的均匀时调用，Triton Ascend它可以调用到，根据用户算子所生成出来的Kernel.o，以及一些Runtime的ShareObject。
 
-来达到我们的Kernel Launch，透过Trydown Ascent Backend，我们可以生成出我们的TTIR，TTIR就是我们的Trydown Intermediate Representation。
+来达到我们的Kernel Launch，透过Triton Ascend Backend，我们可以生成出我们的TTIR，TTIR就是我们的Triton Intermediate Representation。
 
-透过把我们的TTIR下发到我们的TTAdapter，TTAdapter是一个编辑组件，它主要设计两个部分，第一点就是我看IR Lowering，透过把Trydown语义的一些操作，把它Lower把它转换成我们MRR社区常用的一些操作。
+透过把我们的TTIR下发到我们的TTAdapter，TTAdapter是一个编辑组件，它主要设计两个部分，第一点就是我看IR Lowering，透过把Triton语义的一些操作，把它Lower把它转换成我们MRR社区常用的一些操作。
 
-TTAdapter就可以把一些Trydown特有的东西，转换成CMPIR，能阅读能处理的一些IR，除此之外，Trydown Adapter也会进行一些优化，其中一个就是我们的仿权优化，这个后续我会详细把它描述。
+TTAdapter就可以把一些Triton特有的东西，转换成SMPIR，能阅读能处理的一些IR，除此之外，Triton Adapter也会进行一些优化，其中一个就是我们的仿权优化，这个后续我会详细把它描述。
 
-TTAdapter把TTIR转换成我们TTAdapter IR，后续这个TTAdapter IR会下发到我们的CMPIR，CMPIR设计两个主线，第一个就是我们的HFusion，Hyperfusion。
+TTAdapter把TTIR转换成我们TTAdapter IR，后续这个TTAdapter IR会下发到我们的SMPIR，SMPIR设计两个主线，第一个就是我们的HFusion，Hyperfusion。
 
 它会进行一些硬件无关的优化，后续我们会进入我们到我们的TTIVM，Hyperfusion会按照我们的算子特性，来决定我们的V核跟C核上，应该要运行什么代码，也会按照我们的硬件特性，来续进行我们内存分配。
 
-后续我们的CMPIR，会把算子转换成我们的LVM IR，再经过我们的P生编译器，把代码避译成我们的Kernel，如此，ACMPIR就能顺利把我们的TTAdapter，把它转换成一个二进制的Kernel。
+后续我们的SMPIR，会把算子转换成我们的LVM IR，再经过我们的P生编译器，把代码避译成我们的Kernel，如此，ASMPIR就能顺利把我们的TTAdapter，把它转换成一个二进制的Kernel。
 
-到最后，在我们Tri-Dot Ascent里面，它就会调用一个运行时，给一个Driver，来把我们的Kernel.O，以及Runtime.SO，把它跑起来完成我们的Kernel's Launch，这边就是相关的功能概述。
+到最后，在我们Tri-Dot Ascend里面，它就会调用一个运行时，给一个Driver，来把我们的Kernel.O，以及Runtime.SO，把它跑起来完成我们的Kernel's Launch，这边就是相关的功能概述。
 
 那么我们要不从一开始，来看看怎么生成我们的TTIR，大家可以看到我们这里有个Tri-Term Python Language，在这个Language里面，我们只是写了一个Add Kernel，在Add Kernel里面。
 
@@ -66,7 +66,7 @@ TTAdapter把TTIR转换成我们TTAdapter IR，后续这个TTAdapter IR会下发�
 
 后续我们希望在这个Kernel里面做加法，所以看到这里就像Python Syntax那样，Output等于我们的X加Y，那最后把我们的Output Pointer，扎向我们对应的Offset，之后就把我们的数据以及Mask。
 
-把它回传进去我们的Output Pointer上，左边是我们目前的一个Tridon Python Language，而透过我们Tridon Ascent的第一部分，我们可以把这个原码转换成TTIR，TTIR是一个基于MLIR。
+把它回传进去我们的Output Pointer上，左边是我们目前的一个Triton Python Language，而透过我们Triton Ascend的第一部分，我们可以把这个原码转换成TTIR，TTIR是一个基于MLIR。
 
 它所构建出来的一个中间表达式，大家可以看到这里TTIR有个TT.GetProgramID，这里的TT.代表着它的方言是来源于Triton的而这里原码跟右边的Percentage 0是E对应的而后边也可以看到这边几个例子。
 
@@ -90,7 +90,7 @@ TT.load，Percentage bar这些我会在host里面解释上语义，大家可以�
 
 所以大家可以看到，这里是个manref.subview，这里代表着的语言呢就是我们本来的tt.load，同样的我的tt.store，就变成我们的bufferization，the materialized in destination。
 
-tttadapter.ir的特点就在于，它其实是多种方言的一个集合，当中包括，但不限于，我们的linl，我们的linearalgebra，manref，erif，等等的dialects，ttadapter.ir。
+tttadapter.ir的特点就在于，它其实是多种方言的一个集合，当中包括，但不限于，我们的Linalg，我们的linearalgebra，memref，arith，等等的dialects，ttadapter.ir。
 
 其实就是我们assetmpl.ir的一个入口，因为assetmpl.ir，它是可以支持多种语言的，所以tt.adapter要把语言特定的一些操作，把它lower成一个比较社区上有可支撑的一个ir，这样才可以进到我们的assetmpl.ir。
 
@@ -98,9 +98,9 @@ tttadapter.ir的特点就在于，它其实是多种方言的一个集合，当�
 
 用户写了trilanguage之后，language之后，language会被compile成我们的trilangir，之后再根据我们不同类型的一个backhand，不同类型的后端，假设别人的后端是用gpu的话。
 
-trilangir，就会变成我们trilanggpu.ir，再按照不同的平台，不同的backhand，而去生成它们能运行的二进制，而我们昇腾的后端，就会跑上我们的trilangascent这个路，之后生成出我们的linlmir。
+Triton IR，就会变成我们trilanggpu.ir，再按照不同的平台，不同的backhand，而去生成它们能运行的二进制，而我们昇腾的后端，就会跑上我们的trilangascent这个路，之后生成出我们的Linalgmir。
 
-后续这些mir也会经过我们的ascentpyr，我们的毕昇编译器，最后变成我们的昇腾二进制，中间过程会有大量的一个编译化，今天我也会特别重视再去描述，我们trilangir到linlmir的一个过程，以及相关的优化。
+后续这些mir也会经过我们的ascentpyr，我们的毕昇编译器，最后变成我们的昇腾二进制，中间过程会有大量的一个编译化，今天我也会特别重视再去描述，我们trilangir到Linalgmir的一个过程，以及相关的优化。
 
 当我们生成了二进制之后，我们需要launch那个kernel，这个kernel的发射是指我们在trilangascent里面，因为本来这些操作是由cpu去指指令的，但是我们希望用上我们npu，来去跑到我的算子。
 
@@ -114,23 +114,23 @@ trilangir，就会变成我们trilanggpu.ir，再按照不同的平台，不同�
 
 最后就是启动，当我们有了二进制之后，python运行时，会通过我们的npu driver API，将编译好的kernel代码，参数，例如我们的指针，标量，以及相关的配置，我们的grid size，把它传到npu的命令对列中。
 
-npu驱动会随后调度我们的执行，那么，AssembleIR仓的功能概述，就已经说到这里了我们一起来看看，Tradal Ascent它重点有哪些paths，,这边是最新的Tradal Ascent代码架。
+npu驱动会随后调度我们的执行，那么，AssembleIR仓的功能概述，就已经说到这里了我们一起来看看，Triton Ascend它重点有哪些paths，,这边是最新的Triton Ascend代码架。
 
-这边是最新的Tradal Ascent代码架构，Tradal Ascent它里面有个ttaadapter，它负责把我们的ttair，转换成我们的ttaadapterir，里面包括着我们的autoblockify。
+这边是最新的Triton Ascend代码架构，Triton Ascend它里面有个ttaadapter，它负责把我们的ttair，转换成我们的ttaadapterir，里面包括着我们的autoblockify。
 
-descript mask access conversion，dynamic cv pipeline，tradal affinity opt，tradal to annotation，tradal to graph。
+descript mask access conversion，dynamic cv pipeline，Triton affinity opt，Triton to annotation，Triton to graph。
 
-tradal to execution，tradal to hivm，tradal to linl，tradal to lvm，tradal to structure，以及tradal to unstructure。
+Triton to execution，Triton to HIVM，Triton to Linalg，Triton to LLVM，Triton to structure，以及Triton to Unstructured。
 
-我这边抽取了部分重点的paths，来给大家去分享一下，其中比较常见的就是tradal to linl，tradal to execution，tradal to highvm，以及我们的tradal to lvm。
+我这边抽取了部分重点的paths，来给大家去分享一下，其中比较常见的就是Triton to Linalg，Triton to execution，Triton to HIVM，以及我们的Triton to LLVM。
 
-tradal to linl做的事情就是把我们tridon方言的op，转换成linl，manref，tanser，等等的mlir，上区，社区上游的方言，我们透过复用社区的语义定义，可以提升与社区的兼容性。
+Triton to Linalg做的事情就是把我们Triton方言的op，转换成Linalg，memref，tensor，等等的mlir，上区，社区上游的方言，我们透过复用社区的语义定义，可以提升与社区的兼容性。
 
-举个例子，这里的tt-doc broadcast，实际上，它是跟我们的linl broadcast，语义是一样的透过转换我们的tradal broadcast，变成我们的linl broadcast，我们smpir。
+举个例子，这里的tt-doc broadcast，实际上，它是跟我们的Linalg broadcast，语义是一样的透过转换我们的Triton broadcast，变成我们的Linalg broadcast，我们smpir。
 
-也只需要关注我们的line-out broadcast，我们不需要关注我们的语言上游，是用着哪一种语言，同样的道理，tridon reshape，看着只是变成另一种方言的reshape，但是这边也是帮我们的smpir。
+也只需要关注我们的line-out broadcast，我们不需要关注我们的语言上游，是用着哪一种语言，同样的道理，Triton reshape，看着只是变成另一种方言的reshape，但是这边也是帮我们的smpir。
 
-来进行语言程的接偶，让tridon语言相关的一个操作，变成社区上游，共同的操作，这个也让我们的smpir，可以支撑到多种的语言，后续大家可以看到，我们这里有个make range，从0到4096，也就代表这个是一个factor。
+来进行语言程的接偶，让Triton语言相关的一个操作，变成社区上游，共同的操作，这个也让我们的smpir，可以支撑到多种的语言，后续大家可以看到，我们这里有个make range，从0到4096，也就代表这个是一个factor。
 
 从0到我们的4095，后续，我们把我的pointer 把我的argument word 就是我们的一个出餐pointer，把它splats了 之后再进行add pointer 再把它存起来，把这个percentage6存到我们的percentage9内。
 
@@ -140,21 +140,21 @@ tradal to linl做的事情就是把我们tridon方言的op，转换成linl，man
 
 这里是把一个manref位置的dynamic shape，把它变成一个static shape 变成4096的size，同时大家看到这里的make range percentage7后面没有再进行任何的惩罚。
 
-所以它是0123这样去读取，所以它的strike就是1，后续这个values20就是我们组装好的pointer，我们只需要把这个values之旧，我们reshape出来的结果，把它写到我们的values20。
+所以它是0123这样去读取，所以它的stride就是1，后续这个values20就是我们组装好的pointer，我们只需要把这个values之旧，我们reshape出来的结果，把它写到我们的values20。
 
-那么就完成了我们的triton to lean out的一个lowering，当然triton to lean out还有它的局限性，举个例子，如果lean out等等的上游方言，它们都没有这个能力去承载我们的triton无关的一些操作。
+那么就完成了我们的triton to Linalg的一个lowering，当然triton to Linalg还有它的局限性，举个例子，如果Linalg等等的上游方言，它们都没有这个能力去承载我们的triton无关的一些操作。
 
-那么我们就是要用上我们的triton to execution，triton to hfm，以及triton to lvm，举个例子，这里的tt.histogram，其实在上游方言里面没有相关的承载能力的。
+那么我们就是要用上我们的triton to execution，triton to HIVM，以及triton to LLVM，举个例子，这里的tt.histogram，其实在上游方言里面没有相关的承载能力的。
 
-所以为什么这里是需要直集成成出我们的hfm.histogram，再往下，可以看到我triton to hfm，因为有些特有些硬件墙相关的op，它们无论是在lean out还是在hfm等等的方言里面，都没有相关的语意的。
+所以为什么这里是需要直接集成出我们的HIVM.histogram，再往下，可以看到我triton to HIVM，因为有些特有些硬件强相关的op，它们无论是在Linalg还是在HIVM等等的方言里面，都没有相关的语意的。
 
-所以triton to hfm pass，会把相关的triton方言直接下降成我们的hfm方言，举个例子，例如我们的triton ins to pointer，它是把一个Integer cast成一个Pointer指振地址。
+所以triton to HIVM pass，会把相关的triton方言直接下降成我们的HIVM方言，举个例子，例如我们的triton ins to pointer，它是把一个Integer cast成一个Pointer指针地址。
 
-而透过triton to hfm，我们可以直接把它变成hfm方言里面的PointerCast，把这个Falue时期，这一个露出来的一个Percentage 露出来的一个结果，把它去进行一个运扇，最后就是triton to hfm。
+而透过triton to HIVM，我们可以直接把它变成HIVM方言里面的PointerCast，把这个Value 时期，这一个露出来的一个percentage 露出来的一个结果，把它去进行一个运算，最后就是triton to HIVM。
 
-为了增加我们整个语言的应用性，有部分的hfm接口，其实是在我们语言层上对开发者暴露的而triton to hfm pass，就是把这些暴露在triton上的op，直接转换成hfm的op，取个例子，我们的hfm inline assembly。
+为了增加我们整个语言的应用性，有部分的HIVM接口，其实是在我们语言层上对开发者暴露的而triton to HIVM pass，就是把这些暴露在triton上的op，直接转换成HIVM的op，取个例子，我们的HIVM inline assembly。
 
-我们支撑在triton里面使用上它，所以在TTIR里面会看到tt.elementwise inline assembly，我们把相关的参数直接，lower成我们的hfm方言的一个操作，这个就是我们triton to hfm的一个功能。
+我们支撑在triton里面使用上它，所以在TTIR里面会看到tt.elementwise inline assembly，我们把相关的参数直接，lower成我们的HIVM方言的一个操作，这个就是我们triton to HIVM的一个功能。
 
 刚刚给大家介绍的都是一些转换的pass，但triton ascent尤其是triton adapter，它涉及的不光是我们的转换，也涉及到我们的优化，大家可以看到在这个优化里面，我们分成我抽出了其中四个比较有用的比较常用的一个特性给大家讲解一下。
 
@@ -162,11 +162,11 @@ tradal to linl做的事情就是把我们tridon方言的op，转换成linl，man
 
 来把一些非线性的指令，变成一些升等DM指令可使用的一些OP，第三个就是我们discrete mask conversion，这个discrete mask asset conversion，就是透过分析我们的mask。
 
-买些感知，这个mask是离散的还是连续的最后再进行相关的conversion，最后一个就是triton to unstructure，这个pass做的事情就是把一些离散纺尘，来去把它进行处理，首先我们可以先讲我们的autoblockify。
+买些感知，这个mask是离散的还是连续的最后再进行相关的conversion，最后一个就是triton to Unstructured，这个pass做的事情就是把一些离散纺尘，来去把它进行处理，首先我们可以先讲我们的autoblockify。
 
 为了提升我们的升等情和性，autoblockify会按照我们指定的blockify size，来去修改我们的企业分大小，把多个逻辑盒合并成一个blockify后的一个逻辑盒进行运散，举个例子你可以看到这里有四个逻辑盒。
 
-我们在autoblockify v2后可以把四个逻辑盒把它合并成成一个，这个autoblockify v2也是我们tryon to unstructure里面实现的这个也会是今天会特别去关注的一个特性。
+我们在autoblockify v2后可以把四个逻辑盒把它合并成成一个，这个autoblockify v2也是我们Triton to Unstructured里面实现的这个也会是今天会特别去关注的一个特性。
 
 后续进入到我们的sample.ir之后，它会执行autoblockify v2，这个v1后续会更加的进行我们相关的blockify，来去减少我们启用我们的kernel的开销，具体的算法我这边可以举个例子。
 
@@ -192,17 +192,17 @@ pidy以及pidzag，可以看到我们要把autoblockify id，就是这个个0,0,
 
 所以用户不是要感知我们，硬件上实际上有多少个核，多过autoblockify，我们可以把多个逻辑核，按照着我们硬件的特点，硬件上实际上有多少个核，多过autoblockify，我们可以把多个逻辑核，按照着我们硬件的特点。
 
-来去进行对应，来避免我们过度的开销，说完了我们的autoblockify，下一个pass就是我们tridon to structure，tridon to structure，本来又叫做我们的tridon linearization。
+来去进行对应，来避免我们过度的开销，说完了我们的autoblockify，下一个pass就是我们Triton to structure，Triton to structure，本来又叫做我们的Triton linearization。
 
 它就是透过分析，以及转换我们的仿尘表达，来去消除一些非线性的部分，当中包括解析复杂的一些表达式，流入我们的除法，取余，惩罚，加法等等，透过这些讯息，我们可以把offset，size跟stripe，来去得出。
 
-来把本来我们认为是离散仿尘的东西，结构化起来，变成一个可以透过我们深藤DMA指令，访问的一个操作，可以看到，穿通语言本来它是服务GPU的，所以它是有一个SIM体的特点，有一个Single Instruction Multiple Thread的一个特点。
+来把本来我们认为是离散仿尘的东西，结构化起来，变成一个可以透过我们昇腾DMA指令，访问的一个操作，可以看到，穿通语言本来它是服务GPU的，所以它是有一个SIM体的特点，有一个Single Instruction Multiple Thread的一个特点。
 
 这个特点呢它可以进行离散仿尘，把多个原地址进行MultiStract的仿尘，但是因为在A2E3上，我们只有SIMD，只有Single Instruction Multiple Data，所以呢这里的离散仿尘。
 
 就会打致到，我们只能用我们标亮来去仿尘，性能会十分的差，而透过我们的Tri-Ton Structure，我们，可以把这些东西，组装成一个Tensor，我们透过把它组装成一个正确的二维Tensor，正确的运算它的Size。
 
-运算它的Stripe，把它变成一个Tensor，变成一个MainRef，这样的话，我们就变成深藤清河了，所以这个就是我们Tri-Ton to Structure，把一些不能够去，我们会进行一个分析，来去把数据把它组装起来。
+运算它的Stride，把它变成一个Tensor，变成一个MainRef，这样的话，我们就变成昇腾清河了，所以这个就是我们Tri-Ton to Structure，把一些不能够去，我们会进行一个分析，来去把数据把它组装起来。
 
 把它变成一个SIMD，的一个清河的指令，除此之外，我们还有我们的Descript Mask，Acess Conversion，这个Path，就是透过分析我们LowStore里面的Mask，来去识别出我们Mask。
 
@@ -248,7 +248,7 @@ Strike是3，我们的4到9，Strike是5，显然意见，这里的Strike，它�
 
 但是问题是在于，我们知道要这样改写，但是我们要怎么分析呢这边右边看着很简单，大家看一看就知道他们的stripe是不固定的这边看着他的stripe是固定的这个当然很好去理解，而实际上我们在分析的过程里面要考虑的事情。
 
-十分之多可以看一下我们后期的描述，我们tripe to unstructured parts，会对每根轴，来具体分析，而轴的类型具体可以其实分为以下四种，第一种就是标亮轴，标亮轴它的size就是1，而零部复轴。
+十分之多可以看一下我们后期的描述，我们tripe to Unstructuredd parts，会对每根轴，来具体分析，而轴的类型具体可以其实分为以下四种，第一种就是标亮轴，标亮轴它的size就是1，而零部复轴。
 
 就是举个例子，我们把一个标亮，把它splat着，把它broadcast着，这样的话举例我把一个标亮为1的数字把它broadcast，成128的大小，数据全都是1，这样的话，以这个东西作为offset的话。
 
@@ -262,31 +262,31 @@ Strike是3，我们的4到9，Strike是5，显然意见，这里的Strike，它�
 
 如果是标量跟0不复的一个轴来去做一个加或减呢那他们本质上还是一个0不复的轴，以刚刚的作为例子，假设有一个0不复的一个全为3的轴，跟一个0不复全为5的轴，这个加法，本质上，我们只是把我们的offset，变成8。
 
-同样的道理，如果我们是标量轴，0不复轴，跟规整轴，和任何的规整轴做个加法的话，它就是一个规整轴，举个例子，如果，如果我们的规整轴是0123，我们往它，去加个4，就变成，4567，本质上他们strike还是1。
+同样的道理，如果我们是标量轴，0不复轴，跟规整轴，和任何的规整轴做个加法的话，它就是一个规整轴，举个例子，如果，如果我们的规整轴是0123，我们往它，去加个4，就变成，4567，本质上他们stride还是1。
 
-加上标量，或者加上我们的0不复轴，只是影响它的offset，但是offset不是我们在意的地方，因为决定它是不是规整，是看的strike，不是看的offset，同样的道理，我们的规整轴跟规整轴相加，例如举个例。
+加上标量，或者加上我们的0不复轴，只是影响它的offset，但是offset不是我们在意的地方，因为决定它是不是规整，是看的stride，不是看的offset，同样的道理，我们的规整轴跟规整轴相加，例如举个例。
 
 我们是0123，加0123，那么本质上，它就是0，246，它还是一个规整轴，当然这里目前，所有给到的一个描述都是一个比较，simplified的描述，实际上它是有一些特例的特例也会在代码里面去做个描述。
 
 但这里只是为了方便大家理解，也可以看到，如果不是上面的情况，其他的情况呢只要加上我们的离散轴，它本质上还是跟离散轴，这里是个加法跟减法的一个操作，如果是惩罚跟除法呢首先呢惩罚，它是满足那个交换率的它是满足那个associative rule的。
 
-所以，第一个rule，它左右是个互换的，但是division，它不满足那个associative rule，所以左右是不能互换的在惩罚场景里面，我任何一根轴，只要是成绩漂亮的话，它本质上，就是把他的strike。
+所以，第一个rule，它左右是个互换的，但是division，它不满足那个associative rule，所以左右是不能互换的在惩罚场景里面，我任何一根轴，只要是成绩漂亮的话，它本质上，就是把他的stride。
 
-成大对应的倍数，举个例子，123，乘以我们全为3的一个零部副轴，这变成，本质上呢这里，他还是规整的因为他的strike是3，但是倘若是其他操作的话，就会变成离散了以除法为例子，假设他是规整轴跟规整轴，如果是100。
+成大对应的倍数，举个例子，123，乘以我们全为3的一个零部副轴，这变成，本质上呢这里，他还是规整的因为他的stride是3，但是倘若是其他操作的话，就会变成离散了以除法为例子，假设他是规整轴跟规整轴，如果是100。
 
-200，跟我们300，他去除我们的100，200，300，他们的strike是100，456，他们的strike是1，看着两个都是规整的呀，但是如果当我们做了除法之后，100除以4，25，200除以5。
+200，跟我们300，他去除我们的100，200，300，他们的stride是100，456，他们的stride是1，看着两个都是规整的呀，但是如果当我们做了除法之后，100除以4，25，200除以5。
 
-就是40，最后就是300除以6，就是50，大家可以算一下，其实算出来的结果，他们，两个数字之间，的差距不是一样的也就代表着他们的strike，不是一样的，所以除法场景，就是这样，能代表着，这个是一个离散轴。
+就是40，最后就是300除以6，就是50，大家可以算一下，其实算出来的结果，他们，两个数字之间，的差距不是一样的也就代表着他们的stride，不是一样的，所以除法场景，就是这样，能代表着，这个是一个离散轴。
 
-而同样的场景，乘法，刚刚已经描述了0123，乘以0123，就是0，149，自然，他的strike不是固定的就是离散，后面也有我们的extract slice，我们无论那根轴，本来是离散的还是规整的还是如何的只要我extract。
+而同样的场景，乘法，刚刚已经描述了0123，乘以0123，就是0，149，自然，他的stride不是固定的就是离散，后面也有我们的extract slice，我们无论那根轴，本来是离散的还是规整的还是如何的只要我extract。
 
 我extract size的时候size为1，因为标亮轴的定义就是size为1的轴，所以任何轴，做完extract size，with size equal to 1，它就是一个标亮轴，如果是一个非零的不负轴呢如果是一个。
 
-规整轴或者离散轴，首先标亮轴，已经不能做任何这里size等于2或离散的操作了规整轴或者离散轴，如果我在这里extract size，选了两个元素，两个元素之间，他们的strike就只会有一种答案，如果我们的size。
+规整轴或者离散轴，首先标亮轴，已经不能做任何这里size等于2或离散的操作了规整轴或者离散轴，如果我在这里extract size，选了两个元素，两个元素之间，他们的stride就只会有一种答案，如果我们的size。
 
-再多一点的话，那么这确实，可能有多种不同的strike，但是由于，我们只拿两个element，所以他的strike肯定是固定的，所以这里也是一个规整轴，而这里零不负的轴，如果我怎么选它，它本质上，还是一个零不负的最后呢就是任何轴。
+再多一点的话，那么这确实，可能有多种不同的stride，但是由于，我们只拿两个element，所以他的stride肯定是固定的，所以这里也是一个规整轴，而这里零不负的轴，如果我怎么选它，它本质上，还是一个零不负的最后呢就是任何轴。
 
-规整轴，我从它当中随便选三个到四个，因为它的strike是一样的嘛，所以我extract size，extract size也不会选，也会确保，元素的连续性，所以规整轴里面去选，任何，extract size选size。
+规整轴，我从它当中随便选三个到四个，因为它的stride是一样的嘛，所以我extract size，extract size也不会选，也会确保，元素的连续性，所以规整轴里面去选，任何，extract size选size。
 
 也是规整轴，同样道理，零不负轴也是一样，离散轴也是一样，所以这里就是我们的extract size，又是reduce的操作呢首先我们reduce都是reduce我们的手轴，这是前面这里的如果我们的tensor是一个标亮轴跟一个任何轴。
 
@@ -306,9 +306,9 @@ reduce multiplication，来去把我们的任何轴，把它变成标亮轴，�
 
 还要更复杂的这里也不详细描述了就描述一些具体的例子，让大家后续了解一下，后续也有我们的splat操作，splat的操作就是把我们的标亮轴，把它splat成我们的零部副轴，所以就是把一个例如标亮，我把offset1。
 
-splat成一个128长度的E111，这个就是我们的splat操作，所以这边就是try not to unstructure，怎么去进行我们向外推导，最后就得出我们这个DMA，这个loadstore。
+splat成一个128长度的E111，这个就是我们的splat操作，所以这边就是try not to Unstructured，怎么去进行我们向外推导，最后就得出我们这个DMA，这个loadstore。
 
-哪一根轴是离散的哪一根轴是连续的是规整的后续就能够进行我们的一个打散，进行我们的离散仿存改写了后面就到我们的Triton Ascend，功能拓展，我们Triton Ascend，目前拓展了一个功能。
+哪一根轴是离散的哪一根轴是连续的是规整的后续就能够进行我们的一个打散，进行我们的离散访存改写了后面就到我们的Triton Ascend，功能拓展，我们Triton Ascend，目前拓展了一个功能。
 
 叫做custom off，背景是因为，现有的算子组合，可能并不满足我们使用者，需要的计算需求，或者开发者，他们希望自己定义的算子，定义的操作，可以保持私有，或者多个算子的组合，并没办法达到我们最优的性能。
 
@@ -318,13 +318,13 @@ splat成一个128长度的E111，这个就是我们的splat操作，所以这边
 
 能选择要用哪一种pipe，有我们的vf mode，我们可以选择这个是要simd的还是simt的我们也有这个symbol，来让用户来决定，这个函数的名称，但是目前很多功能，还在实现当中，目前我们自定义算子的lowering。
 
-这个用户自己实现的目前还在进行当中，还是实现当中，而相关的linking，例如hfmir，链接到我们用户提供的圆码，或者object files，这个能力，还在支撑当中，或者往我们的pccompile。
+这个用户自己实现的目前还在进行当中，还是实现当中，而相关的linking，例如HIVMir，链接到我们用户提供的圆码，或者object files，这个能力，还在支撑当中，或者往我们的pccompile。
 
 当中注册特定的链接命令，这个也是我们目前在支撑当中，而且我们这边还有限制，就是pass的交互，我们这边要适配我们自定义的算子变化，例如我们的flatten优化，对齐调整，plan memory，布局内存规划。
 
 或者我们的layout transform，例如我们的end to end，这些布局变化，这些呢目前还在支撑当中，这个就是我们customer，我们可以一起看一下相关的例子，可以看到我们这边有两个mlir的用力。
 
-第一个就是building，第二个就是customer，在我们的mplir模板库里面，我们这边会定义了一些模板库，在调用的过程里面呢我们就会透过这个hfm hir，然后customer，来去调用相关的算子。
+第一个就是building，第二个就是customer，在我们的mplir模板库里面，我们这边会定义了一些模板库，在调用的过程里面呢我们就会透过这个HIVM hir，然后customer，来去调用相关的算子。
 
 留这里的building，get a load，这个是我们这边提供的一个building算子，这边的int跟out，就是根据我们的需求来提供的而我们的customer呢这边是用户可以自己保持为prefix的用户可以在这里输入相关的一些属性。
 
@@ -362,7 +362,7 @@ ton Ascend仓里面的Triton Adapter完成的这里就是我们Triton Ascend最�
 
 把多个逻辑核合并成一个Blockify后的逻辑核，来减少我们的Initualization Cost，还有进行到我们的Discrete Mask Access Conversion，来去把不连续的Mask。
 
-把它来去做加上一个Slide，又我们Triton to Unstructure，来把一些离散的仿尘，离散的仿尘指的就是Stripe不固定的一些仿尘，来去把它支撑起来，这个就是我们主要的Path，此外呢。
+把它来去做加上一个Slide，又我们Triton to Unstructured，来把一些离散的仿尘，离散的仿尘指的就是Stride不固定的一些仿尘，来去把它支撑起来，这个就是我们主要的Path，此外呢。
 
 Triton Ascend也为我们生存亲和提供了我们的Custom Ops接口，这个既满足了我们用户对于我们极致性能的追求，也能保持到我们自定义算子的私有性，这个也增加了我们Triton编程里面的我们极致性能的这个追求。
 
@@ -370,17 +370,17 @@ Triton Ascend也为我们生存亲和提供了我们的Custom Ops接口，这个
 
 on Ascend已经开源了很多的代码了大家可以扫一下左边跟右边，左边就是我们的Triton Language，这是我们的Triton Language，GipHub里面的Triton Language。
 
-Triton Ascend，可以扫一下，Style一下，也十分推荐大家，往我们这边右边的GipHub，Ascent，Ascent NPRR里面，大家可以扫一下这个stock，我这边给大家一点时间，来扫一下这个这边的stock。
+Triton Ascend，可以扫一下，Style一下，也十分推荐大家，往我们这边右边的GipHub，Ascend，Ascend NPRR里面，大家可以扫一下这个stock，我这边给大家一点时间，来扫一下这个这边的stock。
 
 后续呢我们这边也会进行一些生态的供建，有兴趣的话，大家可以扫一下我们这个sig交流群组，我们这边会定期每周往这个sig群组里面，发布相关的文章，以及进行我们的代码总结，我们这边也会有相关的一个sig会议。
 
-的一个历程，以及相关的一些会议历程，我们这边也会持续的为大家，去提供我们的训练营，来去让大家更加了解我们的Triton Ascend，以及Ascent NPRR，这边给一点时间，大家去扫一下我们这边的stock。
+的一个历程，以及相关的一些会议历程，我们这边也会持续的为大家，去提供我们的训练营，来去让大家更加了解我们的Triton Ascend，以及Ascend NPRR，这边给一点时间，大家去扫一下我们这边的stock。
 
 而我刚刚前面介绍了我们的玩法1，我们这边在看直播的同时，大家可以扫码到我们的社区活动页，一边看一边答题，我看已经有些小伙伴，已经在我们的活动页，一属页里面底下评论答案了本次直播互动的三道题答案，分别就是我们的重复一次就是我们的评论区前面。
 
 答对前五名的小伙伴，我们可以私讯小助理，来领取我们的奖品，如果我们没抽到奖品的小伙伴也不是要灰心，最后作业以及我们的学习笔记也会有机会拿到我们的奖品的大家可以扫码，报名我们的CANN训练营，更多的挑战，以及丰厚的奖品在等待着大家来领取。
 
-大家可以扫描，萤幕上的二维码，聚约我们的下一场直播，每一来得及观看直播的开发者，可以在B站，搜索我们的深藤CANN，来观看我们的回放，以上就是今天码力全开特级直播的全部内容，我们下一期再见，未经许可,不。
+大家可以扫描，萤幕上的二维码，聚约我们的下一场直播，每一来得及观看直播的开发者，可以在B站，搜索我们的昇腾CANN，来观看我们的回放，以上就是今天码力全开特级直播的全部内容，我们下一期再见，未经许可,不。
 
 得翻唱或使用
 
