@@ -1,3 +1,16 @@
+---
+title: "面向昇腾Triton算子开发（进阶）"
+source: "https://www.hiascend.com/developer/courses/detail/2044691037452255234"
+tags: [triton, ascend, 昇腾, 视频转录, 课程]
+transcribed_by: "whisper-cpp (large-v3-turbo)"
+---
+
+# 面向昇腾Triton算子开发（进阶）
+
+> **来源：** [昇腾社区](https://www.hiascend.com/developer/courses/detail/2044691037452255234)
+> **转录工具：** whisper-cpp (large-v3-turbo) · 本地转录
+> **处理：** 术语修正 · 段落合并 · 标点补充
+
 各位开发者大家好,欢迎大家参与昇腾CANNN技术课程的学习，本节课是Triton 算子子开发的进阶课程，会带领大家掌握Triton的编程范式，以及面向昇腾开发算子的关键点，本次课程分为四个章节，分别是面向昇腾开发与迁移。
 
 Triton 算子子调试方法，Gather算子用力解读和Triton 算子子自动调优，我们首先来看第一部分，面向昇腾的开发与迁移，我们先来回顾一下Triton Kernel的开发模式，回忆一下一个Triton Kernel。
@@ -105,3 +118,4 @@ Vector单元用来进行向量运算，Unified Buffer存储用于向量计算的
 字典中设置multibuffer等于true或者等于false，方式二调用时直接指定，如果开发者已经确定了最佳策略，或者在调试阶段想强制关闭它，可以直接在调用kernel时指定参数multibuffe。
 
 r的值
+

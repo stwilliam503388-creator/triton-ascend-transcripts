@@ -1,12 +1,14 @@
-# 面向昇腾Triton算子开发（初级）
+# 01_Triton初级
 
-> 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/1998217338603737090)
-> 课程 ID：1998217338603737090
-> 转录工具：whisper-cpp (large-v3)
+> 转录文本：[01_Triton初级.md](01_Triton初级.md)
 
 ## 文件
 
 | 文件 | 说明 |
 |------|------|
-| `transcript.txt` | 语音转录文本（经专业术语修正） |
+| `01_Triton初级.md` | Markdown 格式转录文本 |
 | `subtitle.srt` | SRT 字幕文件 |
+
+## 来源
+
+[昇腾社区课程](https://www.hiascend.com/developer/courses/)

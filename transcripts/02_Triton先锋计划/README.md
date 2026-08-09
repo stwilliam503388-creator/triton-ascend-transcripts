@@ -1,12 +1,14 @@
-# 【先锋计划】Triton-Ascend算子开发介绍
+# 02_Triton先锋计划
 
-> 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/2071845112954408961)
-> 课程 ID：2071845112954408961
-> 转录工具：whisper-cpp (large-v3)
+> 转录文本：[02_Triton先锋计划.md](02_Triton先锋计划.md)
 
 ## 文件
 
 | 文件 | 说明 |
 |------|------|
-| `transcript.txt` | 语音转录文本（经专业术语修正） |
+| `02_Triton先锋计划.md` | Markdown 格式转录文本 |
 | `subtitle.srt` | SRT 字幕文件 |
+
+## 来源
+
+[昇腾社区课程](https://www.hiascend.com/developer/courses/)

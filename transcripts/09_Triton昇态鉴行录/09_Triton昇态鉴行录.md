@@ -1,3 +1,16 @@
+---
+title: "《昇态鉴行录》Triton算子开发基础"
+source: "https://www.hiascend.com/developer/courses/detail/2009545800908128258"
+tags: [triton, ascend, 昇腾, 视频转录, 课程]
+transcribed_by: "whisper-cpp (large-v3-turbo)"
+---
+
+# 《昇态鉴行录》Triton算子开发基础
+
+> **来源：** [昇腾社区](https://www.hiascend.com/developer/courses/detail/2009545800908128258)
+> **转录工具：** whisper-cpp (large-v3-turbo) · 本地转录
+> **处理：** 术语修正 · 段落合并 · 标点补充
+
 哈喽哈喽,各位直播间的小伙伴们,大家好,能听到声音吗?，那欢迎大家来到看轩演员的直播间,我是今天的主持人,那很高兴和大家一起观看我们企业对话专场的直播。
 
 我们今天邀请到的直播嘉宾是非常重量级的,那首先是上海AI实验室编译计算与国产化高级工程师,，袁胜老师,那袁老师呢,一直深耕AI编译与高性能计算,同时围绕看传统模型与大模型开展算子与系统溜化,那还是非常。
@@ -663,3 +676,4 @@ attentionprolog，这一个算子也在那个dlblast里面也开远了，直接�
 同时也不会增加额外的那个tuning的额外的操作，大概是这个样子，好的，感谢袁老师这个分享，还有一个问题，就是想请教一下袁老师，DL compiler擴展的DSL对应用性的影响大吗，这个问题其实我也很。
 
 想了解一下
+

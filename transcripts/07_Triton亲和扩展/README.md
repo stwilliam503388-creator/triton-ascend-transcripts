@@ -1,12 +1,14 @@
-# Triton昇腾亲和扩展编程实践
+# 07_Triton亲和扩展
 
-> 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/2061700710588108802)
-> 课程 ID：2061700710588108802
-> 转录工具：whisper-cpp (large-v3)
+> 转录文本：[07_Triton亲和扩展.md](07_Triton亲和扩展.md)
 
 ## 文件
 
 | 文件 | 说明 |
 |------|------|
-| `transcript.txt` | 语音转录文本（经专业术语修正） |
+| `07_Triton亲和扩展.md` | Markdown 格式转录文本 |
 | `subtitle.srt` | SRT 字幕文件 |
+
+## 来源
+
+[昇腾社区课程](https://www.hiascend.com/developer/courses/)

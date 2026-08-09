@@ -1,12 +1,13 @@
-# 基于AscendNPU IR构建DLCompiler
+# 12_Triton_DLCompiler
 
-> 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/1998662211601461249)
-> 课程 ID：1998662211601461249
-
-> 转录工具：whisper-cpp (large-v3)
+> 转录文本：[12_Triton_DLCompiler.md](12_Triton_DLCompiler.md)
 
 ## 文件
 
 | 文件 | 说明 |
 |------|------|
-| `transcript.txt` | 语音转录文本（经专业术语修正） |
+| `12_Triton_DLCompiler.md` | Markdown 格式转录文本 |
+
+## 来源
+
+[昇腾社区课程](https://www.hiascend.com/developer/courses/)

@@ -1,3 +1,16 @@
+---
+title: "面向昇腾Triton算子开发（初级）"
+source: "https://www.hiascend.com/developer/courses/detail/1998217338603737090"
+tags: [triton, ascend, 昇腾, 视频转录, 课程]
+transcribed_by: "whisper-cpp (large-v3-turbo)"
+---
+
+# 面向昇腾Triton算子开发（初级）
+
+> **来源：** [昇腾社区](https://www.hiascend.com/developer/courses/detail/1998217338603737090)
+> **转录工具：** whisper-cpp (large-v3-turbo) · 本地转录
+> **处理：** 术语修正 · 段落合并 · 标点补充
+
 接下来我来给大家讲一下如何去装配我们Triton Ascend的环境，首先第一步我们都是要安装 CANN，也就是之前在上一章提到过的一个计算架构，我们首先在那个Triton Ascend的开源仓，首页的ReadMe里边就有这个安装指南的链接。
 
 在里面有明确的写我们需要哪个版本的看，看呢我们就可以直接在昇腾的官网上获取，我们在Title这一栏我们只要点击这个看，就可以导航到它的CANN 的首页，然后我们在这个立即下载上面点开这个社区版，就能打开我们这个看软件包的下载页面。
@@ -77,3 +90,4 @@
 就是我们要把那个环境变量的脚本给sauce一下，把那些环境变量给配好才能用好我们的CAN，所以说完善行变量之后，大家就可以直接用这个Python，运行这个脚本的方式，就可以把运行我们的这个Triton 算子。
 
 然后算的用力，其实大家都可以在我们这个example里边去找到，然后大家可以在这个example里边去找到
+

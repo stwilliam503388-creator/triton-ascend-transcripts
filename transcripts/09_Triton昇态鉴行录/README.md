@@ -1,10 +1,13 @@
-# 《昇态鉴行录》Triton算子开发基础
+# 09_Triton昇态鉴行录
 
-> 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/2009545800908128258)
-> 课程 ID：2009545800908128258
+> 转录文本：[09_Triton昇态鉴行录.md](09_Triton昇态鉴行录.md)
 
-> 转录工具：whisper-cpp (large-v3-turbo, 分块)
+## 文件
 
-## 获取课程
+| 文件 | 说明 |
+|------|------|
+| `09_Triton昇态鉴行录.md` | Markdown 格式转录文本 |
 
-点击上方链接观看昇腾社区官方视频。
+## 来源
+
+[昇腾社区课程](https://www.hiascend.com/developer/courses/)

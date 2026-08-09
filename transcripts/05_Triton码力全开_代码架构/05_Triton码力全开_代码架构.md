@@ -1,3 +1,16 @@
+---
+title: "【码力全开】Triton Ascend代码架构全解析"
+source: "https://www.hiascend.com/developer/courses/detail/2059206542540251137"
+tags: [triton, ascend, 昇腾, 视频转录, 课程]
+transcribed_by: "whisper-cpp (large-v3-turbo)"
+---
+
+# 【码力全开】Triton Ascend代码架构全解析
+
+> **来源：** [昇腾社区](https://www.hiascend.com/developer/courses/detail/2059206542540251137)
+> **转录工具：** whisper-cpp (large-v3-turbo) · 本地转录
+> **处理：** 术语修正 · 段落合并 · 标点补充
+
 小伙伴们,大家好，我是本次直播的讲师，Traddle Ascent Town的Committer,梁颖冲，你们也可以叫我Ricky，很高兴和大家在Cent训练营，码力全开特辑的直播间中和大家见面，2026Cent训练营。
 
 我们设置了全新的四大主题课程，分别是我们的开源基础系列，码力全开特辑，开发者说，以及我们的企业对话专场，同时我们也设置了更多好玩的互动，让各位小伙伴们参与，给大家介绍一下本季全新的训练营玩法，大家可以先截图保存。
@@ -369,3 +382,4 @@ Triton Ascend，可以扫一下，Style一下，也十分推荐大家，往我�
 大家可以扫描，萤幕上的二维码，聚约我们的下一场直播，每一来得及观看直播的开发者，可以在B站，搜索我们的深藤CANN，来观看我们的回放，以上就是今天码力全开特级直播的全部内容，我们下一期再见，未经许可,不。
 
 得翻唱或使用
+
