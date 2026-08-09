@@ -14,23 +14,22 @@
 | 06 | 【码力全开】Triton算子调试和性能优化 | [🔗](https://www.hiascend.com/developer/courses/detail/2057646310697541634) | ✅ |
 | 07 | Triton昇腾亲和扩展编程实践 | [🔗](https://www.hiascend.com/developer/courses/detail/2061700710588108802) | ✅ |
 | 08 | Triton-TLE面向昇腾的扩展与优化 | [🔗](https://www.hiascend.com/developer/courses/detail/2065276409307607041) | ✅ |
-| 09 | 《昇态鉴行录》Triton算子开发基础 | ✅ | [🔗](https://www.hiascend.com/developer/courses/detail/2009545800908128258) | — |
-| 10 | Triton-Ascend代码架构及功能扩展全解析 | ✅ | [🔗](https://www.hiascend.com/developer/courses/detail/1993247708929794049) | — |
-| 11 | 详解面向昇腾的Triton算子调试和性能优化 | ✅ | [🔗](https://www.hiascend.com/developer/courses/detail/2009525333350514689) | — |
-| 12 | 基于AscendNPU IR构建DLCompiler | ✅ | [🔗](https://www.hiascend.com/developer/courses/detail/1998662211601461249) | — |
+| 09 | 《昇态鉴行录》Triton算子开发基础 | [🔗](https://www.hiascend.com/developer/courses/detail/2009545800908128258) | ✅ |
+| 10 | Triton-Ascend代码架构及功能扩展全解析 | [🔗](https://www.hiascend.com/developer/courses/detail/1993247708929794049) | ✅ |
+| 11 | 详解面向昇腾的Triton算子调试和性能优化 | [🔗](https://www.hiascend.com/developer/courses/detail/2009525333350514689) | ✅ |
+| 12 | 基于AscendNPU IR构建DLCompiler | [🔗](https://www.hiascend.com/developer/courses/detail/1998662211601461249) | ✅ |
 
 ## 文件结构
 
 ```
 transcripts/
-  01_Triton初级/         {transcript.txt, subtitle.srt, README.md}
-  02_Triton先锋计划/      ...
-  ...8 courses transcribed...
-  09_Triton昇态鉴行录/    {README.md}  (仅课程链接)
-  10_Triton代码架构/      {README.md}  (仅课程链接)
-  11_Triton调试优化/      {README.md}  (仅课程链接)
-  12_Triton_DLCompiler/  {README.md}  (仅课程链接)
+  01-面向昇腾Triton算子开发（初级）/     {.md, .txt, .srt, README.md}
+  02-【先锋计划】Triton-Ascend算子开发介绍/  {.md, .txt, .srt, README.md}
+  ...
+  12-基于AscendNPU IR构建DLCompiler/   {.md, .txt, .srt, README.md}
 ```
+
+每门课包含：Markdown 转录稿 (.md)、纯文本 (.txt)、SRT 字幕 (.srt)、README。
 
 ## 转录工具
 
