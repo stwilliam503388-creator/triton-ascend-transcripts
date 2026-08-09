@@ -1,0 +1,10 @@
+# 02-【先锋计划】Triton-Ascend算子开发介绍
+
+> 来源：[昇腾社区](https://www.hiascend.com/developer/courses/detail/2071845112954408961)
+
+## 文件
+
+| 文件 | 说明 |
+|------|------|
+| `02-【先锋计划】Triton-Ascend算子开发介绍.md` | Markdown 格式转录文本 |
+| `subtitle.srt` | SRT 字幕文件 |
